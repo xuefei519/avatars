@@ -1,0 +1,349 @@
+$skin: #ffd1c2;
+$brown: #452826;
+$pink: #F6828C;
+$cloth:#f68e97;
+@mixin border($b) {
+  border-radius: $b;
+  -webkit-border-radius: $b;
+  -moz-border-radius: $b;
+}
+#Xuefei{
+.container,
+.face,
+.hair,
+.nose,
+.ear,
+.neck,
+.body,
+.cape,
+.logo,
+.group,
+.fringe,
+.eye,
+.profile-card,
+.yes,
+.no,
+.info,
+.tongue,
+.profile-wrap,
+.name,
+.mouth,
+.eyebrow,
+.blush,
+.collar,
+.glasses {
+  position: absolute;
+}
+
+
+.container {
+  position: absolute;
+  margin: auto;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+}
+
+.profile {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  @include border(100%);
+  border: 2px solid #FFF;
+  overflow: hidden;
+  background: #D0E0EB;
+}
+
+.group {
+  left: -7px;
+}
+
+.face {
+  @include border(100px);
+  z-index: 20;
+  top: 43px;
+  left: 70px;
+  width: 80px;
+  height: 108px;
+  background: $skin;
+}
+
+.hair {
+  z-index: 3;
+  top: 30px;
+  left: 60px;
+  width: 105px;
+  height: 135px;
+  border-radius: 100px 100px 30px 30px;
+  background: $brown;
+  &:before,
+  &:after {
+    position: absolute;
+    content: '';
+  }
+  &:before {
+    position: absolute;
+    content: '';
+    top: 85px;
+    left: -10px;
+    width: 37px;
+    height: 50px;
+    background: $brown;
+    @include border(0 0 50px 50px);
+    transform: rotate(20deg);
+  }
+  &:after {
+    position: absolute;
+    content: '';
+    top: 65px;
+    left: 75px;
+    width: 37px;
+    height: 70px;
+    background: $brown;
+    @include border(0 0 50px 50px);
+    transform: rotate(-20deg);
+  }
+}
+
+.ear {
+  z-index: 4;
+  top: 93px;
+  left: 61px;
+  width: 30px;
+  height: 30px;
+  @include border(100%);
+  background: $skin;
+  &:before {
+    position: absolute;
+    top: 8px;
+    left: 4px;
+    content: '';
+    width: 20px;
+    height: 15px;
+    @include border(100%);
+    background: #ED8A80;
+  }
+}
+
+.ear.right {
+  left: 130px;
+  display: none;
+}
+
+.fringe {
+  z-index: 99;
+  top: 40px;
+  left: 90px;
+  width: 65px;
+  height: 50px;
+  background: $brown;
+  border-radius:0 70px 0 50px;
+  &:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: -25px;
+    width: 25px;
+    height: 57px;
+    background: $brown;
+    @include border(100%);
+    transform: rotate(25deg);
+  }
+}
+
+.eyebrow {
+  z-index: 300;
+  top: 92px;
+  left: 80px;
+  width: 14px;
+  height: 2px;
+  background: #646B73;
+  @include border(3px);
+  &:before {
+    position: absolute;
+    content: '';
+    left: 46px;
+    width: 14px;
+    height: 2px;
+    background: #646B73;
+    @include border(3px);
+  }
+}
+.glasses{
+  z-index: 35;
+  top: 96px;
+  left: 66px;
+  height: 16px;
+  width: 33px;
+  border: 3px solid #646B73;
+  border-radius: 7px;
+  &::before{
+    position: absolute;
+    content: '';
+    z-index: 35;
+    top: -3px;
+    left: 45px;
+    height: 16px;
+    width: 33px;
+    border: 3px solid #646B73;
+    @include border(7px);
+  }
+  &:after{
+    position: absolute;
+    content: '';
+    z-index: 35;
+    top: 5px;
+    left: 33px;
+    width: 15px;
+    height: 15px;
+    border-top: 3px solid #646B73;
+    border-bottom: none solid transparent;
+    border-left: none solid transparent;
+    border-right: none solid transparent;
+    border-radius: 10px;
+  }
+}
+
+.eye {
+  z-index: 30;
+  top: 103px;
+  left: 83px;
+  width: 11px;
+  height: 8px;
+  background: #424B54;
+  @include border(100%);
+  &:before {
+    position: absolute;
+    content: '';
+    left: 43px;
+    width: 11px;
+    height: 8px;
+    background: #424B54;
+    @include border(100%);
+  }
+}
+
+
+.blush {
+  z-index: 999;
+  top: 116px;
+  left: 77px;
+  width: 15px;
+  height: 7px;
+  background: #E3879E;
+  @include border(100%);
+  opacity: 0.4;
+  &:before{
+    position: absolute;
+    content: '';
+    left: 52px;
+    width: 15px;
+  height: 7px;
+  background: #E3879E;
+  @include border(100%);
+
+  }
+}
+
+.nose {
+  z-index: 20;
+  top: 100px;
+  left: 107px;
+  width: 4px;
+  height: 17px;
+  border-left: 2px solid #424B54;
+  border-bottom: 2px solid #424B54;
+  border-right: 1px solid transparent;
+  border-top: 1px solid transparent;
+  border-radius: 0 0 0 5px;
+  transform: rotate(5deg);
+  //@include border(100px);
+  display: none;
+}
+
+.mouth {
+  z-index: 20;
+  top: 120px;
+  left: 100px;
+  width: 20px;
+  height: 10px;
+  border-radius:100%;
+  border-bottom: 2px solid #424B54;
+  border-top: none solid transparent;
+  border-left: none solid transparent;
+  border-right: none solid transparent;
+  overflow: hidden;
+}
+
+.tongue {
+  top: 5px;
+  left: 8px;
+  width: 30px;
+  height: 20px;
+  background: $pink;
+  @include border(100%);
+  display: none;
+}
+
+.neck {
+  z-index: 13;
+  width: 25px;
+  height: 30px;
+  background: $skin;
+  top: 130px;
+  left: 97px;
+  @include border(100%);
+}
+
+.body {
+  z-index: 10;
+  top: 150px;
+  left: 65px;
+  width: 90px;
+  height: 150px;
+  background: $cloth;
+  overflow: hidden;
+  @include border(100px);
+  .collar{
+      position: absolute;
+      content: '';
+      top:2px;
+      left: 26px;
+      width: 40px;
+    height: 10px;
+    border-radius: 0 0 100px 100px;
+    background: $skin;
+  }
+}
+
+.cape {
+  z-index: 4;
+  top: 148px;
+  left: 43px;
+  width: 130px;
+  height: 160px;
+  background: #E15554;
+  border-radius: 60px 60px 0 0;
+}
+
+.logo {
+  top: 10px;
+  left: 16px;
+  width: 27px;
+  height: 15px;
+  border-bottom: 20px solid #ECD688;
+  border-left: 23px solid transparent;
+  border-right: 22px solid transparent;
+  &:before {
+    position: absolute;
+    content: '';
+    top: 35px;
+    left: -22px;
+    border-top: 40px solid #ECD688;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+  }
+}
+}
