@@ -164,7 +164,7 @@
   border-right: 1px solid transparent;
   border-radius: 100%;
   -webkit-transform: translateZ(1px) rotate(13deg);
-  transform: rotate(13deg);
+  transform: translateZ(1px) rotate(13deg);
 }
 /* line 163, Tsing.scss */
 #Tsing .eyebrow:before {
@@ -303,7 +303,7 @@
   border-left: 1px solid transparent;
   border-right: 1px solid transparent;
   -webkit-transform: translateZ(1px) scaleY(0.5);
-  transform: scaleY(0.5);
+  transform: translateZ(1px) scaleY(0.5);
 }
 /* line 290, Tsing.scss */
 #Tsing .tongue {
