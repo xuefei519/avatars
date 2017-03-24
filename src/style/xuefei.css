@@ -218,9 +218,9 @@
   width: 15px;
   height: 15px;
   border-top: 3px solid #646B73;
-  border-bottom: none solid transparent;
-  border-left: none solid transparent;
-  border-right: none solid transparent;
+  border-bottom: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
   border-radius: 10px;
 }
 /* line 209, xuefei.scss */
@@ -296,9 +296,9 @@
   height: 10px;
   border-radius: 100%;
   border-bottom: 2px solid #424B54;
-  border-top: none solid transparent;
-  border-left: none solid transparent;
-  border-right: none solid transparent;
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
   overflow: hidden;
 }
 /* line 280, xuefei.scss */
