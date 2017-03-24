@@ -21,7 +21,9 @@ class Xuefei extends Component {
               <div className="tongue"></div>
             </div>
             <div className="neck"></div>
-            <div className="body"></div>
+            <div className="body">
+            <div className="collar"></div>
+            </div>
           </div>
         </div>
       </div>
