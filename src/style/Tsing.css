@@ -163,9 +163,10 @@
   border-left: 1px solid transparent;
   border-right: 1px solid transparent;
   border-radius: 100%;
+  -webkit-transform: translateZ(1px) rotate(13deg);
   transform: rotate(13deg);
 }
-/* line 162, Tsing.scss */
+/* line 163, Tsing.scss */
 #Tsing .eyebrow:before {
   position: absolute;
   content: '';
@@ -180,7 +181,7 @@
   border-radius: 100%;
   transform: rotate(-25deg);
 }
-/* line 177, Tsing.scss */
+/* line 178, Tsing.scss */
 #Tsing .glasses {
   z-index: 35;
   top: 93px;
@@ -190,7 +191,7 @@
   border: 3px solid #646B73;
   border-radius: 7px;
 }
-/* line 185, Tsing.scss */
+/* line 186, Tsing.scss */
 #Tsing .glasses::before {
   position: absolute;
   content: '';
@@ -204,7 +205,7 @@
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
 }
-/* line 196, Tsing.scss */
+/* line 197, Tsing.scss */
 #Tsing .glasses:after {
   position: absolute;
   content: '';
@@ -219,7 +220,7 @@
   border-right: 1px solid transparent;
   border-radius: 10px;
 }
-/* line 212, Tsing.scss */
+/* line 213, Tsing.scss */
 #Tsing .eye {
   z-index: 30;
   top: 97px;
@@ -234,7 +235,7 @@
   -webkit-border-radius: 40%;
   -moz-border-radius: 40%;
 }
-/* line 223, Tsing.scss */
+/* line 224, Tsing.scss */
 #Tsing .eye:before {
   position: absolute;
   content: '';
@@ -247,11 +248,11 @@
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
 }
-/* line 234, Tsing.scss */
+/* line 235, Tsing.scss */
 #Tsing .eye.right {
   left: 120px;
 }
-/* line 239, Tsing.scss */
+/* line 240, Tsing.scss */
 #Tsing .blush {
   z-index: 999;
   top: 113px;
@@ -264,7 +265,7 @@
   -moz-border-radius: 100%;
   opacity: 0.4;
 }
-/* line 248, Tsing.scss */
+/* line 249, Tsing.scss */
 #Tsing .blush:before {
   position: absolute;
   content: '';
@@ -276,7 +277,7 @@
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
 }
-/* line 260, Tsing.scss */
+/* line 261, Tsing.scss */
 #Tsing .nose {
   z-index: 20;
   top: 110px;
@@ -289,7 +290,7 @@
   border-right: 1px solid transparent;
   border-radius: 100px;
 }
-/* line 274, Tsing.scss */
+/* line 275, Tsing.scss */
 #Tsing .mouth {
   z-index: 20;
   top: 120px;
@@ -301,9 +302,10 @@
   border-top: 1px solid transparent;
   border-left: 1px solid transparent;
   border-right: 1px solid transparent;
+  -webkit-transform: translateZ(1px) scaleY(0.5);
   transform: scaleY(0.5);
 }
-/* line 288, Tsing.scss */
+/* line 290, Tsing.scss */
 #Tsing .tongue {
   top: 5px;
   left: 8px;
@@ -314,7 +316,7 @@
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
 }
-/* line 297, Tsing.scss */
+/* line 299, Tsing.scss */
 #Tsing .neck {
   z-index: 13;
   width: 30px;
@@ -326,7 +328,7 @@
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
 }
-/* line 307, Tsing.scss */
+/* line 309, Tsing.scss */
 #Tsing .body {
   z-index: 10;
   top: 150px;
@@ -339,7 +341,7 @@
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
 }
-/* line 316, Tsing.scss */
+/* line 318, Tsing.scss */
 #Tsing .body .collar {
   position: absolute;
   content: '';
@@ -351,7 +353,7 @@
   background: #f0beaf;
   transform: scaleY(0.6);
 }
-/* line 329, Tsing.scss */
+/* line 331, Tsing.scss */
 #Tsing .cape {
   z-index: 4;
   top: 148px;
@@ -361,7 +363,7 @@
   background: #E15554;
   border-radius: 60px 60px 0 0;
 }
-/* line 339, Tsing.scss */
+/* line 341, Tsing.scss */
 #Tsing .logo {
   top: 10px;
   left: 16px;
@@ -371,7 +373,7 @@
   border-left: 23px solid transparent;
   border-right: 22px solid transparent;
 }
-/* line 347, Tsing.scss */
+/* line 349, Tsing.scss */
 #Tsing .logo:before {
   position: absolute;
   content: '';
