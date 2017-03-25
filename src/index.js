@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Xuefei from './Xuefei';
 import Tsing from './Tsing';
+import Joy from './Joy';
 import Christina from './Christina';
 import './style/index.css';
 
@@ -12,6 +13,10 @@ ReactDOM.render(
 ReactDOM.render(
   <Tsing />,
   document.getElementById('Tsing')
+);
+ReactDOM.render(
+  <Joy />,
+  document.getElementById('Joy')
 );
 ReactDOM.render(
   <Christina />,
