@@ -324,16 +324,19 @@
   width: 11px;
   height: 11px;
   border-left: 2px solid #424B54;
+  border-right: 1px solid transparent;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
   border-radius: 100px;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   transform: rotate(-45deg);
 }
-/* line 310, Joy.scss */
+/* line 313, Joy.scss */
 #Joy .eye.right {
   left: 125px;
 }
-/* line 314, Joy.scss */
+/* line 317, Joy.scss */
 #Joy .blush {
   z-index: 999;
   top: 116px;
@@ -346,7 +349,7 @@
   -moz-border-radius: 100%;
   opacity: 0.4;
 }
-/* line 323, Joy.scss */
+/* line 326, Joy.scss */
 #Joy .blush:before {
   position: absolute;
   content: '';
@@ -358,7 +361,7 @@
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
 }
-/* line 335, Joy.scss */
+/* line 338, Joy.scss */
 #Joy .nose {
   z-index: 20;
   top: 100px;
@@ -372,7 +375,7 @@
   border-radius: 0 0 0 5px;
   transform: rotate(5deg);
 }
-/* line 349, Joy.scss */
+/* line 352, Joy.scss */
 #Joy .lip {
   z-index: 20;
   top: 115px;
@@ -385,7 +388,7 @@
   border-left: 1px solid transparent;
   border-right: 1px solid transparent;
 }
-/* line 361, Joy.scss */
+/* line 364, Joy.scss */
 #Joy .mouth {
   z-index: 20;
   width: 22px;
@@ -396,7 +399,7 @@
   border-radius: 0 0 100px 100px;
   overflow: hidden;
 }
-/* line 372, Joy.scss */
+/* line 375, Joy.scss */
 #Joy .tongue {
   top: 4px;
   left: -6px;
@@ -407,7 +410,7 @@
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
 }
-/* line 381, Joy.scss */
+/* line 384, Joy.scss */
 #Joy .neck {
   z-index: 13;
   width: 25px;
@@ -419,7 +422,7 @@
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
 }
-/* line 391, Joy.scss */
+/* line 394, Joy.scss */
 #Joy .body {
   z-index: 10;
   top: 150px;
@@ -432,7 +435,7 @@
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
 }
-/* line 400, Joy.scss */
+/* line 403, Joy.scss */
 #Joy .body .collar {
   position: absolute;
   content: '';
@@ -443,7 +446,7 @@
   border-radius: 100px 100px 0 0;
   background: #ffd1c2;
 }
-/* line 412, Joy.scss */
+/* line 415, Joy.scss */
 #Joy .cape {
   z-index: 4;
   top: 148px;
@@ -453,7 +456,7 @@
   background: #E15554;
   border-radius: 60px 60px 0 0;
 }
-/* line 422, Joy.scss */
+/* line 425, Joy.scss */
 #Joy .logo {
   top: 10px;
   left: 16px;
@@ -463,7 +466,7 @@
   border-left: 23px solid transparent;
   border-right: 22px solid transparent;
 }
-/* line 430, Joy.scss */
+/* line 433, Joy.scss */
 #Joy .logo:before {
   position: absolute;
   content: '';

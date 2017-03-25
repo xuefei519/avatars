@@ -303,6 +303,9 @@ border-radius: 0 20px;
     width: 11px;
     height: 11px;
     border-left: 2px solid #424B54;
+    border-right: 1px solid transparent;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
     @include border(100px);
     transform: rotate(-45deg);
   }
