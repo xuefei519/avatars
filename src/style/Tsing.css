@@ -159,9 +159,9 @@
   width: 23px;
   height: 8px;
   border-top: 3px solid #646B73;
-  border-bottom: 1px solid transparent;
-  border-left: 1px solid transparent;
-  border-right: 1px solid transparent;
+  border-bottom: 0 solid transparent;
+  border-left: 0 solid transparent;
+  border-right: 0 solid transparent;
   border-radius: 100%;
   -webkit-transform: translateZ(1px) rotate(13deg);
   transform: translateZ(1px) rotate(13deg);

@@ -164,9 +164,9 @@
   width: 61px;
   height: 132px;
   border-right: 29px solid #603d05;
-  border-left: 1px solid transparent;
-  border-top: 1px solid transparent;
-  border-bottom: 1px solid transparent;
+  border-left: 0 solid transparent;
+  border-top: 0 solid transparent;
+  border-bottom: 0 solid transparent;
   border-radius: 100px;
   transform: rotate(-24deg);
 }
