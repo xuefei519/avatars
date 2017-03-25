@@ -6,6 +6,7 @@ import Joy from './Joy';
 import Quinn from './Quinn';
 import Christina from './Christina';
 import './style/index.css';
+document.addEventListener("touchstart", function(){}, true);
 
 ReactDOM.render(
   <Xuefei />,
