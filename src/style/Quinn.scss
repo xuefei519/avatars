@@ -8,6 +8,8 @@ $cloth:#fff8f8;
   -moz-border-radius: $b;
 }
 #Quinn{
+  * :focus { outline: 0; }
+  
 .container,
 .face,
 .hair,
