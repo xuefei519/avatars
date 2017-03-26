@@ -3,6 +3,7 @@ $white:#F0F0F0;
 $blue:#97C2B9;
 $pink:#E9ABC7;
 $brown:#CAA882;
+$red:#d20000;
 $break:400px;
 $title:'Macondo', cursive;
 $content:'Bitter', serif;
@@ -36,6 +37,7 @@ body {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   justify-content: center;
+  padding-bottom: 30px;
 }
 #Xuefei,#Tsing,#Joy,#Quinn,#Christina{
   position: relative;
@@ -55,4 +57,38 @@ cursor: pointer;
     background: $pink;
     border-radius: 10px;
   }
+}
+footer{
+  text-align: center;
+  color:$red;
+  font-family: $content;
+  padding: 10px 0;
+  .love{
+    position: relative;
+    width: 150px;
+    margin: auto;
+    &:before{
+      content:"";
+      position: absolute;
+      width: 35px;
+      height: 53px;
+      top:8px;
+      left: -13px;
+      border-left: 2px solid $red;
+      border-top: 2px solid $red;
+      border-bottom: 2px solid $red;
+    }
+    &:after{
+      content:"";
+      position: absolute;
+      width: 35px;
+      height: 53px;
+      top:8px;
+      left: 127px;
+      border-right: 2px solid $red;
+      border-top: 2px solid $red;
+      border-bottom: 2px solid $red;
+    }
+  }
+
 }

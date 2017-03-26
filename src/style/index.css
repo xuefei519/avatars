@@ -1,9 +1,9 @@
-/* line 9, index.scss */
+/* line 10, index.scss */
 body {
   background: #f0f0f0;
 }
 
-/* line 12, index.scss */
+/* line 13, index.scss */
 .title p {
   padding: 50px 0 20px 0;
   width: 100%;
@@ -13,19 +13,19 @@ body {
   color: #caa882;
 }
 @media screen and (max-width: 400px) {
-  /* line 12, index.scss */
+  /* line 13, index.scss */
   .title p {
     font-size: 60px;
   }
 }
 @media screen and (min-width: 400px) {
-  /* line 12, index.scss */
+  /* line 13, index.scss */
   .title p {
     font-size: 80px;
   }
 }
 
-/* line 26, index.scss */
+/* line 27, index.scss */
 .description p {
   font-family: "Bitter", serif;
   font-size: 20px;
@@ -33,7 +33,7 @@ body {
   color: #97c2b9;
 }
 
-/* line 32, index.scss */
+/* line 33, index.scss */
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -41,9 +41,10 @@ body {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   justify-content: center;
+  padding-bottom: 30px;
 }
 
-/* line 40, index.scss */
+/* line 42, index.scss */
 #Xuefei, #Tsing, #Joy, #Quinn, #Christina {
   position: relative;
   margin-top: 200px;
@@ -53,16 +54,54 @@ body {
   cursor: pointer;
 }
 
-/* line 48, index.scss */
+/* line 50, index.scss */
 #image {
   display: none;
   position: absolute;
 }
-/* line 51, index.scss */
+/* line 53, index.scss */
 #image .content {
   position: absolute;
   width: 400px;
   height: 400px;
   background: #e9abc7;
   border-radius: 10px;
+}
+
+/* line 61, index.scss */
+footer {
+  text-align: center;
+  color: #d20000;
+  font-family: "Bitter", serif;
+  padding: 10px 0;
+}
+/* line 66, index.scss */
+footer .love {
+  position: relative;
+  width: 150px;
+  margin: auto;
+}
+/* line 70, index.scss */
+footer .love:before {
+  content: "";
+  position: absolute;
+  width: 35px;
+  height: 53px;
+  top: 8px;
+  left: -13px;
+  border-left: 2px solid #d20000;
+  border-top: 2px solid #d20000;
+  border-bottom: 2px solid #d20000;
+}
+/* line 81, index.scss */
+footer .love:after {
+  content: "";
+  position: absolute;
+  width: 35px;
+  height: 53px;
+  top: 8px;
+  left: 127px;
+  border-right: 2px solid #d20000;
+  border-top: 2px solid #d20000;
+  border-bottom: 2px solid #d20000;
 }
