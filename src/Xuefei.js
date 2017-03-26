@@ -4,7 +4,7 @@ import './style/xuefei.css';
 class Xuefei extends Component {
   render() {
     return (
-      <div className="container">
+      <a className="container" onClick={function(){console.log("hi");}}>
         <div className="profile">
           <div className="group">
             <div className="hair"></div>
@@ -26,7 +26,7 @@ class Xuefei extends Component {
             </div>
           </div>
         </div>
-      </div>
+      </a>
     );
   }
 }

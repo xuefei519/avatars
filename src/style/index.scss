@@ -1,0 +1,45 @@
+$yellow:#F3E761;
+$white:#F0F0F0;
+$blue:#97C2B9;
+$pink:#E9ABC7;
+$brown:#CAA882;
+$break:400px;
+$title:'Macondo', cursive;
+$content:'Bitter', serif;
+body {
+  background: $white;
+}
+.title p{
+    padding: 50px 0 20px 0;
+    width: 100%;
+    margin: 0;
+    font-family: $title;
+    text-align: center;
+    color:$brown;
+    @media screen and (max-width: $break) {
+      font-size:60px;
+    }
+    @media screen and (min-width: $break) {
+      font-size: 80px;
+    }
+}
+.description p{
+  font-family: $content;
+  font-size: 20px;
+  text-align: center;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  justify-content: center;
+}
+#Xuefei,#Tsing,#Joy,#Quinn,#Christina{
+  position: relative;
+    margin-top: 200px;
+    width: 250px;
+display: flex;
+padding:30px;
+}
