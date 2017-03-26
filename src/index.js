@@ -8,6 +8,7 @@ import Christina from './Christina';
 import './style/index.css';
 import $ from 'jquery';
 import domtoimage from 'dom-to-image';
+import FileSaver from 'file-saver';
 
 ReactDOM.render(
   <Xuefei />,
@@ -31,24 +32,11 @@ ReactDOM.render(
 );
 
 $('a').click(function(){
-  var title=$(this).parent().attr('id');
+  var title=$(this).parent().attr('id')+".png";
   var target=$(this).find('.profile')[0];
-  domtoimage.toPng(target)
-      .then(function (dataUrl) {
-          var img = new Image();
-          img.src = dataUrl;
-          //var w = window.open("");
-          //w.document.write(img.outerHTML);
 
-          var url = img.src.replace(/^data:image\/[^;]/, 'data:application/octet-stream');
-          window.open(url);
-
-          /*var link = document.createElement("a");
-          link.download = title+".png";
-          link.href = img.src;
-          link.click();*/
-      })
-      .catch(function (error) {
-          console.error('oops, something went wrong!', error);
-      })
+  domtoimage.toBlob(target)
+    .then(function (blob) {
+      FileSaver.saveAs(blob, title);
+    });
 });
