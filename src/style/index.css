@@ -123,7 +123,10 @@ footer .love:after {
   display: none;
   position: absolute;
   bottom: -40px;
+  left: 0;
+  right: 0;
   font-family: "Macondo", cursive;
   font-size: 30px;
   color: #1e1e1e;
+  text-align: center;
 }

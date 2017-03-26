@@ -107,7 +107,10 @@ footer{
   display: none;
   position: absolute;
   bottom: -40px;
+  left: 0;
+  right: 0;
   font-family: $title;
   font-size: 30px;
   color: $black;
+  text-align: center;
 }
