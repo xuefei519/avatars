@@ -30,6 +30,11 @@ ReactDOM.render(
   <Christina />,
   document.getElementById('Christina')
 );
+$('a').hover(function(){
+  $(this).find('p').show();
+},function(){
+  $(this).find('p').hide();
+});
 
 $('a').click(function(){
   var title=$(this).parent().attr('id')+".png";

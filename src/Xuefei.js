@@ -26,6 +26,7 @@ class Xuefei extends Component {
             </div>
           </div>
         </div>
+        <p className="name">Xuefei</p>
       </a>
     );
   }

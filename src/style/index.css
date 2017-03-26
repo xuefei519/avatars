@@ -1,39 +1,51 @@
-/* line 10, index.scss */
+/* line 9, index.scss */
 body {
   background: #f0f0f0;
 }
 
-/* line 13, index.scss */
-.title p {
+/* line 12, index.scss */
+.title {
   padding: 50px 0 20px 0;
   width: 100%;
   margin: 0;
   font-family: "Macondo", cursive;
   text-align: center;
-  color: #caa882;
+  color: #1e1e1e;
 }
 @media screen and (max-width: 400px) {
-  /* line 13, index.scss */
-  .title p {
-    font-size: 60px;
+  /* line 12, index.scss */
+  .title {
+    font-size: 50px;
   }
 }
 @media screen and (min-width: 400px) {
-  /* line 13, index.scss */
-  .title p {
+  /* line 12, index.scss */
+  .title {
     font-size: 80px;
   }
 }
 
-/* line 27, index.scss */
+/* line 26, index.scss */
+.subtitle {
+  font-family: "Macondo", cursive;
+  font-size: 30px;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  color: #1e1e1e;
+  top: -20px;
+}
+
+/* line 38, index.scss */
 .description p {
   font-family: "Bitter", serif;
   font-size: 20px;
   text-align: center;
-  color: #97c2b9;
+  color: #999999;
 }
 
-/* line 33, index.scss */
+/* line 44, index.scss */
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -44,7 +56,7 @@ body {
   padding-bottom: 30px;
 }
 
-/* line 42, index.scss */
+/* line 53, index.scss */
 #Xuefei, #Tsing, #Joy, #Quinn, #Christina {
   position: relative;
   margin-top: 200px;
@@ -54,34 +66,34 @@ body {
   cursor: pointer;
 }
 
-/* line 50, index.scss */
+/* line 61, index.scss */
 #image {
   display: none;
   position: absolute;
 }
-/* line 53, index.scss */
+/* line 64, index.scss */
 #image .content {
   position: absolute;
   width: 400px;
   height: 400px;
-  background: #e9abc7;
+  background: #fce3e2;
   border-radius: 10px;
 }
 
-/* line 61, index.scss */
+/* line 72, index.scss */
 footer {
   text-align: center;
-  color: #d20000;
+  color: #a71812;
   font-family: "Bitter", serif;
   padding: 10px 0;
 }
-/* line 66, index.scss */
+/* line 77, index.scss */
 footer .love {
   position: relative;
   width: 150px;
   margin: auto;
 }
-/* line 70, index.scss */
+/* line 81, index.scss */
 footer .love:before {
   content: "";
   position: absolute;
@@ -89,11 +101,11 @@ footer .love:before {
   height: 53px;
   top: 8px;
   left: -13px;
-  border-left: 2px solid #d20000;
-  border-top: 2px solid #d20000;
-  border-bottom: 2px solid #d20000;
+  border-left: 2px solid #a71812;
+  border-top: 2px solid #a71812;
+  border-bottom: 2px solid #a71812;
 }
-/* line 81, index.scss */
+/* line 92, index.scss */
 footer .love:after {
   content: "";
   position: absolute;
@@ -101,7 +113,17 @@ footer .love:after {
   height: 53px;
   top: 8px;
   left: 127px;
-  border-right: 2px solid #d20000;
-  border-top: 2px solid #d20000;
-  border-bottom: 2px solid #d20000;
+  border-right: 2px solid #a71812;
+  border-top: 2px solid #a71812;
+  border-bottom: 2px solid #a71812;
+}
+
+/* line 106, index.scss */
+.name {
+  display: none;
+  position: absolute;
+  bottom: -40px;
+  font-family: "Macondo", cursive;
+  font-size: 30px;
+  color: #1e1e1e;
 }

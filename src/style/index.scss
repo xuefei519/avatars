@@ -1,34 +1,45 @@
-$yellow:#F3E761;
 $white:#F0F0F0;
-$blue:#97C2B9;
-$pink:#E9ABC7;
-$brown:#CAA882;
-$red:#d20000;
+$grey:#999999;
+$pink:#FCE3E2;
+$black:#1E1E1E;
+$red:#A71812;
 $break:400px;
 $title:'Macondo', cursive;
 $content:'Bitter', serif;
 body {
   background: $white;
 }
-.title p{
+.title {
     padding: 50px 0 20px 0;
     width: 100%;
     margin: 0;
     font-family: $title;
     text-align: center;
-    color:$brown;
+    color:$black;
     @media screen and (max-width: $break) {
-      font-size:60px;
+      font-size:50px;
     }
     @media screen and (min-width: $break) {
       font-size: 80px;
     }
-}
+  }
+  .subtitle{
+      font-family: $title;
+      font-size: 30px;
+      position: relative;
+      width: 100%;
+      margin: 0;
+      text-align: center;
+      color:$black;
+      top: -20px;
+    }
+
+
 .description p{
   font-family: $content;
   font-size: 20px;
   text-align: center;
-  color:$blue;
+  color:$grey;
 }
 .container{
   display: flex;
@@ -91,4 +102,12 @@ footer{
     }
   }
 
+}
+.name{
+  display: none;
+  position: absolute;
+  bottom: -40px;
+  font-family: $title;
+  font-size: 30px;
+  color: $black;
 }

@@ -30,6 +30,7 @@ class Joy extends Component {
             </div>
           </div>
         </div>
+        <p className='name'>Joy</p>
       </a>
     );
   }

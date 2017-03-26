@@ -23,6 +23,7 @@ class Christina extends Component {
           <div className="body"></div>
           </div>
           </div>
+          <p className='name'>Christina</p>
         </a>
     );
   }

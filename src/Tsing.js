@@ -26,6 +26,7 @@ class Tsing extends Component {
           </div>
         </div>
       </div>
+      <p className='name'>Tsing</p>
       </a>
     );
   }

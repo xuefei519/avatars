@@ -27,6 +27,7 @@ class Quinn extends Component {
             </div>
           </div>
         </div>
+        <p className='name'>Quinn</p>
       </a>
     );
   }
