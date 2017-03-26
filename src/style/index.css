@@ -30,9 +30,10 @@ body {
   font-family: "Bitter", serif;
   font-size: 20px;
   text-align: center;
+  color: #97c2b9;
 }
 
-/* line 31, index.scss */
+/* line 32, index.scss */
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -42,7 +43,7 @@ body {
   justify-content: center;
 }
 
-/* line 39, index.scss */
+/* line 40, index.scss */
 #Xuefei, #Tsing, #Joy, #Quinn, #Christina {
   position: relative;
   margin-top: 200px;
@@ -52,12 +53,12 @@ body {
   cursor: pointer;
 }
 
-/* line 47, index.scss */
+/* line 48, index.scss */
 #image {
   display: none;
   position: absolute;
 }
-/* line 50, index.scss */
+/* line 51, index.scss */
 #image .content {
   position: absolute;
   width: 400px;

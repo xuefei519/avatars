@@ -37,10 +37,16 @@ $('a').click(function(){
       .then(function (dataUrl) {
           var img = new Image();
           img.src = dataUrl;
-          var link = document.createElement("a");
+          //var w = window.open("");
+          //w.document.write(img.outerHTML);
+
+          var url = img.src.replace(/^data:image\/[^;]/, 'data:application/octet-stream');
+          window.open(url);
+
+          /*var link = document.createElement("a");
           link.download = title+".png";
           link.href = img.src;
-          link.click();
+          link.click();*/
       })
       .catch(function (error) {
           console.error('oops, something went wrong!', error);
