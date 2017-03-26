@@ -42,4 +42,16 @@ body {
     width: 250px;
 display: flex;
 padding:30px;
+cursor: pointer;
+}
+#image{
+  display: none;
+  position: absolute;
+  .content{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: $pink;
+    border-radius: 10px;
+  }
 }

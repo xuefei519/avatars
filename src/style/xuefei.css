@@ -90,9 +90,10 @@
   border-radius: 0 0 50px 50px;
   -webkit-border-radius: 0 0 50px 50px;
   -moz-border-radius: 0 0 50px 50px;
+  -webkit-transform: rotate(20deg);
   transform: rotate(20deg);
 }
-/* line 97, xuefei.scss */
+/* line 98, xuefei.scss */
 #Xuefei .hair:after {
   position: absolute;
   content: '';
@@ -104,9 +105,10 @@
   border-radius: 0 0 50px 50px;
   -webkit-border-radius: 0 0 50px 50px;
   -moz-border-radius: 0 0 50px 50px;
+  -webkit-transform: rotate(20deg);
   transform: rotate(-20deg);
 }
-/* line 110, xuefei.scss */
+/* line 112, xuefei.scss */
 #Xuefei .ear {
   z-index: 4;
   top: 93px;
@@ -118,7 +120,7 @@
   -moz-border-radius: 100%;
   background: #ffd1c2;
 }
-/* line 118, xuefei.scss */
+/* line 120, xuefei.scss */
 #Xuefei .ear:before {
   position: absolute;
   top: 8px;
@@ -131,12 +133,12 @@
   -moz-border-radius: 100%;
   background: #ED8A80;
 }
-/* line 130, xuefei.scss */
+/* line 132, xuefei.scss */
 #Xuefei .ear.right {
   left: 130px;
   display: none;
 }
-/* line 135, xuefei.scss */
+/* line 137, xuefei.scss */
 #Xuefei .fringe {
   z-index: 99;
   top: 40px;
@@ -146,7 +148,7 @@
   background: #452826;
   border-radius: 0 70px 0 50px;
 }
-/* line 143, xuefei.scss */
+/* line 145, xuefei.scss */
 #Xuefei .fringe:before {
   position: absolute;
   content: '';
@@ -158,9 +160,10 @@
   border-radius: 100%;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
+  -webkit-transform: rotate(25deg);
   transform: rotate(25deg);
 }
-/* line 156, xuefei.scss */
+/* line 159, xuefei.scss */
 #Xuefei .eyebrow {
   z-index: 300;
   top: 92px;
@@ -172,7 +175,7 @@
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
 }
-/* line 164, xuefei.scss */
+/* line 167, xuefei.scss */
 #Xuefei .eyebrow:before {
   position: absolute;
   content: '';
@@ -184,7 +187,7 @@
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
 }
-/* line 174, xuefei.scss */
+/* line 177, xuefei.scss */
 #Xuefei .glasses {
   z-index: 35;
   top: 96px;
@@ -194,7 +197,7 @@
   border: 3px solid #646B73;
   border-radius: 7px;
 }
-/* line 182, xuefei.scss */
+/* line 185, xuefei.scss */
 #Xuefei .glasses::before {
   position: absolute;
   content: '';
@@ -208,7 +211,7 @@
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
 }
-/* line 193, xuefei.scss */
+/* line 196, xuefei.scss */
 #Xuefei .glasses:after {
   position: absolute;
   content: '';
@@ -223,7 +226,7 @@
   border-right: 1px solid transparent;
   border-radius: 10px;
 }
-/* line 209, xuefei.scss */
+/* line 212, xuefei.scss */
 #Xuefei .eye {
   z-index: 30;
   top: 103px;
@@ -235,7 +238,7 @@
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
 }
-/* line 217, xuefei.scss */
+/* line 220, xuefei.scss */
 #Xuefei .eye:before {
   position: absolute;
   content: '';
@@ -247,7 +250,7 @@
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
 }
-/* line 229, xuefei.scss */
+/* line 232, xuefei.scss */
 #Xuefei .blush {
   z-index: 999;
   top: 116px;
@@ -260,7 +263,7 @@
   -moz-border-radius: 100%;
   opacity: 0.4;
 }
-/* line 238, xuefei.scss */
+/* line 241, xuefei.scss */
 #Xuefei .blush:before {
   position: absolute;
   content: '';
@@ -272,7 +275,7 @@
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
 }
-/* line 250, xuefei.scss */
+/* line 253, xuefei.scss */
 #Xuefei .nose {
   z-index: 20;
   top: 100px;
@@ -284,10 +287,11 @@
   border-right: 1px solid transparent;
   border-top: 1px solid transparent;
   border-radius: 0 0 0 5px;
+  -webkit-transform: rotate(5deg);
   transform: rotate(5deg);
   display: none;
 }
-/* line 266, xuefei.scss */
+/* line 270, xuefei.scss */
 #Xuefei .mouth {
   z-index: 20;
   top: 120px;
@@ -301,7 +305,7 @@
   border-right: 1px solid transparent;
   overflow: hidden;
 }
-/* line 280, xuefei.scss */
+/* line 284, xuefei.scss */
 #Xuefei .tongue {
   top: 5px;
   left: 8px;
@@ -313,7 +317,7 @@
   -moz-border-radius: 100%;
   display: none;
 }
-/* line 290, xuefei.scss */
+/* line 294, xuefei.scss */
 #Xuefei .neck {
   z-index: 13;
   width: 25px;
@@ -325,7 +329,7 @@
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
 }
-/* line 300, xuefei.scss */
+/* line 304, xuefei.scss */
 #Xuefei .body {
   z-index: 10;
   top: 150px;
@@ -338,7 +342,7 @@
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
 }
-/* line 309, xuefei.scss */
+/* line 313, xuefei.scss */
 #Xuefei .body .collar {
   position: absolute;
   content: '';
@@ -349,7 +353,7 @@
   border-radius: 0 0 100px 100px;
   background: #ffd1c2;
 }
-/* line 321, xuefei.scss */
+/* line 325, xuefei.scss */
 #Xuefei .cape {
   z-index: 4;
   top: 148px;
@@ -359,7 +363,7 @@
   background: #E15554;
   border-radius: 60px 60px 0 0;
 }
-/* line 331, xuefei.scss */
+/* line 335, xuefei.scss */
 #Xuefei .logo {
   top: 10px;
   left: 16px;
@@ -369,7 +373,7 @@
   border-left: 23px solid transparent;
   border-right: 22px solid transparent;
 }
-/* line 339, xuefei.scss */
+/* line 343, xuefei.scss */
 #Xuefei .logo:before {
   position: absolute;
   content: '';

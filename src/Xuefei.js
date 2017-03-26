@@ -4,7 +4,7 @@ import './style/xuefei.css';
 class Xuefei extends Component {
   render() {
     return (
-      <a className="container" onClick={function(){console.log("hi");}}>
+      <a className="container">
         <div className="profile">
           <div className="group">
             <div className="hair"></div>
@@ -30,5 +30,4 @@ class Xuefei extends Component {
     );
   }
 }
-
 export default Xuefei;

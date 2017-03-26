@@ -4,7 +4,7 @@ import './style/Christina.css';
 class Christina extends Component {
   render() {
     return (
-      <div className="container">
+      <a className="container">
         <div className="profile">
           <div className="group">
           <div className="hair"></div>
@@ -23,7 +23,7 @@ class Christina extends Component {
           <div className="body"></div>
           </div>
           </div>
-        </div>
+        </a>
     );
   }
 }

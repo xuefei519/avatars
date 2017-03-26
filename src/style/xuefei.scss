@@ -92,6 +92,7 @@ $cloth:#f68e97;
     height: 50px;
     background: $brown;
     @include border(0 0 50px 50px);
+    -webkit-transform:rotate(20deg);
     transform: rotate(20deg);
   }
   &:after {
@@ -103,6 +104,7 @@ $cloth:#f68e97;
     height: 70px;
     background: $brown;
     @include border(0 0 50px 50px);
+    -webkit-transform:rotate(20deg);
     transform: rotate(-20deg);
   }
 }
@@ -149,6 +151,7 @@ $cloth:#f68e97;
     height: 57px;
     background: $brown;
     @include border(100%);
+    -webkit-transform:rotate(25deg);
     transform: rotate(25deg);
   }
 }
@@ -258,6 +261,7 @@ $cloth:#f68e97;
   border-right: 1px solid transparent;
   border-top: 1px solid transparent;
   border-radius: 0 0 0 5px;
+  -webkit-transform:rotate(5deg);
   transform: rotate(5deg);
   //@include border(100px);
   display: none;
