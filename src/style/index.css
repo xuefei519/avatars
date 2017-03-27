@@ -1,11 +1,17 @@
 /* line 9, index.scss */
 body {
   background: #f0f0f0;
-  min-height: 100vh;
+  min-height: 100%;
   margin: 0;
 }
 
 /* line 14, index.scss */
+.content {
+  min-height: 100vh;
+  position: relative;
+}
+
+/* line 18, index.scss */
 .title {
   padding: 50px 0 20px 0;
   width: 100%;
@@ -15,19 +21,19 @@ body {
   color: #1e1e1e;
 }
 @media screen and (max-width: 400px) {
-  /* line 14, index.scss */
+  /* line 18, index.scss */
   .title {
     font-size: 50px;
   }
 }
 @media screen and (min-width: 400px) {
-  /* line 14, index.scss */
+  /* line 18, index.scss */
   .title {
     font-size: 80px;
   }
 }
 
-/* line 28, index.scss */
+/* line 32, index.scss */
 .subtitle {
   font-family: "Macondo", cursive;
   font-size: 30px;
@@ -39,7 +45,7 @@ body {
   top: -20px;
 }
 
-/* line 40, index.scss */
+/* line 44, index.scss */
 .description p {
   font-family: "Bitter", serif;
   font-size: 20px;
@@ -47,8 +53,12 @@ body {
   color: #999999;
 }
 
-/* line 46, index.scss */
-.container {
+/* line 50, index.scss */
+#body {
+  padding-bottom: 120px;
+}
+/* line 52, index.scss */
+#body .container {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -57,9 +67,8 @@ body {
   justify-content: center;
   padding-bottom: 30px;
 }
-
-/* line 55, index.scss */
-#Xuefei, #Tsing, #Joy, #Quinn, #Christina {
+/* line 61, index.scss */
+#body #Xuefei, #body #Tsing, #body #Joy, #body #Quinn, #body #Christina {
   position: relative;
   margin-top: 200px;
   width: 250px;
@@ -68,12 +77,12 @@ body {
   cursor: pointer;
 }
 
-/* line 63, index.scss */
+/* line 70, index.scss */
 #image {
   display: none;
   position: absolute;
 }
-/* line 66, index.scss */
+/* line 73, index.scss */
 #image .content {
   position: absolute;
   width: 400px;
@@ -82,8 +91,8 @@ body {
   border-radius: 10px;
 }
 
-/* line 74, index.scss */
-footer {
+/* line 81, index.scss */
+#footer {
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -92,14 +101,14 @@ footer {
   padding: 10px 0;
   width: 100%;
 }
-/* line 82, index.scss */
-footer .love {
+/* line 89, index.scss */
+#footer .love {
   position: relative;
   width: 150px;
   margin: auto;
 }
-/* line 86, index.scss */
-footer .love:before {
+/* line 93, index.scss */
+#footer .love:before {
   content: "";
   position: absolute;
   width: 35px;
@@ -110,8 +119,8 @@ footer .love:before {
   border-top: 2px solid #a71812;
   border-bottom: 2px solid #a71812;
 }
-/* line 97, index.scss */
-footer .love:after {
+/* line 104, index.scss */
+#footer .love:after {
   content: "";
   position: absolute;
   width: 35px;
@@ -123,7 +132,7 @@ footer .love:after {
   border-bottom: 2px solid #a71812;
 }
 
-/* line 111, index.scss */
+/* line 118, index.scss */
 .name {
   display: none;
   position: absolute;
