@@ -36,7 +36,7 @@ $('a').hover(function(){
   $(this).find('p').hide();
 });
 
-$('a').click(function(){
+/*$('a').click(function(){
   var title=$(this).parent().attr('id')+".png";
   var target=$(this).find('.profile')[0];
 
@@ -44,4 +44,4 @@ $('a').click(function(){
     .then(function (blob) {
       FileSaver.saveAs(blob, title);
     });
-});
+});*/
