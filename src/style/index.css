@@ -82,18 +82,21 @@ body {
 
 /* line 72, index.scss */
 footer {
+  position: absolute;
+  bottom: 0;
   text-align: center;
   color: #a71812;
   font-family: "Bitter", serif;
   padding: 10px 0;
+  width: 100%;
 }
-/* line 77, index.scss */
+/* line 80, index.scss */
 footer .love {
   position: relative;
   width: 150px;
   margin: auto;
 }
-/* line 81, index.scss */
+/* line 84, index.scss */
 footer .love:before {
   content: "";
   position: absolute;
@@ -105,7 +108,7 @@ footer .love:before {
   border-top: 2px solid #a71812;
   border-bottom: 2px solid #a71812;
 }
-/* line 92, index.scss */
+/* line 95, index.scss */
 footer .love:after {
   content: "";
   position: absolute;
@@ -118,7 +121,7 @@ footer .love:after {
   border-bottom: 2px solid #a71812;
 }
 
-/* line 106, index.scss */
+/* line 109, index.scss */
 .name {
   display: none;
   position: absolute;
