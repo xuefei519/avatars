@@ -5,6 +5,7 @@ import Tsing from './Tsing';
 import Joy from './Joy';
 import Quinn from './Quinn';
 import Christina from './Christina';
+import Mengru from './Mengru';
 import './style/index.css';
 import $ from 'jquery';
 import domtoimage from 'dom-to-image';
@@ -29,6 +30,10 @@ ReactDOM.render(
 ReactDOM.render(
   <Christina />,
   document.getElementById('Christina')
+);
+ReactDOM.render(
+  <Mengru />,
+  document.getElementById('Mengru')
 );
 $('a').hover(function(){
   $(this).find('p').show();
