@@ -343,37 +343,35 @@
   width: 35px;
   height: 13px;
   left: 90px;
-  top: 120px;
+  top: 122px;
   background: #424b54;
   border-radius: 0 0 100px 100px;
-  border: 1px solid #424b54;
   overflow: hidden;
 }
-/* line 331, Mengru.scss */
-#Mengru .teeth {
-  top: 4px;
+/* line 330, Mengru.scss */
+#Mengru .teeth.upper {
+  z-index: 3;
+  top: 0;
   left: 4px;
   width: 25px;
-  height: 8px;
+  height: 7px;
   background: #fff8ed;
   border: 1px solid #424b54;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
+  border-radius: 0 0 4px 4px;
+  -webkit-border-radius: 0 0 4px 4px;
+  -moz-border-radius: 0 0 4px 4px;
 }
-/* line 339, Mengru.scss */
-#Mengru .teeth::before {
-  content: "";
-  position: absolute;
-  background: #fff8ed;
-  top: -8px;
-  left: -2px;
-  width: 27px;
+/* line 340, Mengru.scss */
+#Mengru .teeth.lower {
+  top: 6px;
+  left: 5px;
+  width: 23px;
   height: 9px;
+  background: #fff8ed;
   border: 1px solid #424b54;
   border-radius: 0 0 4px 4px;
 }
-/* line 353, Mengru.scss */
+/* line 350, Mengru.scss */
 #Mengru .neck {
   z-index: 13;
   width: 25px;
@@ -385,7 +383,7 @@
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
 }
-/* line 363, Mengru.scss */
+/* line 360, Mengru.scss */
 #Mengru .body {
   z-index: 10;
   top: 150px;
@@ -398,7 +396,7 @@
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
 }
-/* line 372, Mengru.scss */
+/* line 369, Mengru.scss */
 #Mengru .body .collar {
   position: absolute;
   content: '';
@@ -409,7 +407,7 @@
   border-radius: 0 0 100px 100px;
   background: #f0beaf;
 }
-/* line 384, Mengru.scss */
+/* line 381, Mengru.scss */
 #Mengru .cape {
   z-index: 4;
   top: 148px;
@@ -419,7 +417,7 @@
   background: #E15554;
   border-radius: 60px 60px 0 0;
 }
-/* line 394, Mengru.scss */
+/* line 391, Mengru.scss */
 #Mengru .logo {
   top: 10px;
   left: 16px;
@@ -429,7 +427,7 @@
   border-left: 23px solid transparent;
   border-right: 22px solid transparent;
 }
-/* line 402, Mengru.scss */
+/* line 399, Mengru.scss */
 #Mengru .logo:before {
   position: absolute;
   content: '';

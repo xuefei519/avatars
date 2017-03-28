@@ -21,7 +21,8 @@ class Mengru extends Component {
             <div className="nose"></div>
 
             <div className="mouth">
-              <div className="teeth"></div>
+              <div className="teeth upper"></div>
+              <div className="teeth lower"></div>
             </div>
             <div className="neck"></div>
             <div className="body">
