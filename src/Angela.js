@@ -8,7 +8,14 @@ class Angela extends Component {
         <div className="profile">
           <div className="group">
             <div className="hair"></div>
+            <div className="deco">
+              <div className="mouseEar"></div>
+              <div className="mouseEar right"></div>
+              <div className="mouseNose"></div>
+            </div>
+            <div className="tohide">
             <div className="ear right"></div>
+            </div>
             <div className="fringe"></div>
             <div className="face"></div>
             <div className="eyebrow"></div>

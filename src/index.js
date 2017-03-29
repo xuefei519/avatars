@@ -47,8 +47,12 @@ ReactDOM.render(
 );
 $('a').hover(function(){
   $(this).find('p').show();
+  $(this).find('.deco').show();
+  $(this).find('.tohide').hide();
 },function(){
   $(this).find('p').hide();
+  $(this).find('.deco').hide();
+  $(this).find('.tohide').show();
 });
 
 /*$('a').click(function(){
