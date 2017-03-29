@@ -1,0 +1,545 @@
+/* line 18, Angela.scss */
+body {
+  background: pink;
+}
+
+/* line 48, Angela.scss */
+#Angela .container,
+#Angela .face,
+#Angela .hair,
+#Angela .nose,
+#Angela .ear,
+#Angela .neck,
+#Angela .body,
+#Angela .cape,
+#Angela .logo,
+#Angela .group,
+#Angela .fringe,
+#Angela .eye,
+#Angela .profile-card,
+#Angela .bowtie,
+#Angela .front,
+#Angela .back,
+#Angela .info,
+#Angela .teeth,
+#Angela .tongue,
+#Angela .profile-wrap,
+#Angela .name,
+#Angela .lip,
+#Angela .mouth,
+#Angela .eyebrow,
+#Angela .blush,
+#Angela .collar,
+#Angela .glasses {
+  position: absolute;
+}
+/* line 53, Angela.scss */
+#Angela .container {
+  position: absolute;
+  margin: auto;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+}
+/* line 63, Angela.scss */
+#Angela .profile {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border: 2px solid #FFF;
+  overflow: hidden;
+  background: #af4c7c;
+}
+/* line 73, Angela.scss */
+#Angela .group {
+  left: -7px;
+  top: 9px;
+}
+/* line 78, Angela.scss */
+#Angela .face {
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  z-index: 20;
+  top: 47px;
+  left: 70px;
+  width: 80px;
+  height: 100px;
+  background: #ffd1c2;
+}
+/* line 88, Angela.scss */
+#Angela .hair {
+  z-index: 3;
+  top: 30px;
+  left: 60px;
+  width: 105px;
+  height: 153px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  background: #2f2727;
+}
+/* line 98, Angela.scss */
+#Angela .ear {
+  z-index: 4;
+  top: 93px;
+  left: 61px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  background: #ffd1c2;
+}
+/* line 106, Angela.scss */
+#Angela .ear:before {
+  position: absolute;
+  top: 8px;
+  left: 4px;
+  content: '';
+  width: 20px;
+  height: 15px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  background: #ED8A80;
+}
+/* line 118, Angela.scss */
+#Angela .ear.right {
+  left: 130px;
+}
+/* line 121, Angela.scss */
+#Angela .fringe {
+  z-index: 99;
+  top: 40px;
+  left: 66px;
+  background: #2f2727;
+  height: 50px;
+  width: 65px;
+  border-radius: 50px 0 9px 0;
+}
+/* line 129, Angela.scss */
+#Angela .fringe:before {
+  content: "";
+  position: absolute;
+  background: #2f2727;
+  top: 4px;
+  left: 69px;
+  height: 54px;
+  width: 15px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  transform: rotate(-20deg);
+  -webkit-transform: rotate(-20deg);
+  /* Safari and Chrome */
+  -moz-transform: rotate(-20deg);
+  /* Firefox */
+  -ms-transform: rotate(-20deg);
+}
+/* line 140, Angela.scss */
+#Angela .fringe:after {
+  content: "";
+  position: absolute;
+  background: #ffd1c2;
+  top: 13px;
+  left: 50px;
+  height: 37px;
+  width: 15px;
+  border-radius: 50px 0 9px 9px;
+  -webkit-border-radius: 50px 0 9px 9px;
+  -moz-border-radius: 50px 0 9px 9px;
+}
+/* line 155, Angela.scss */
+#Angela .eyebrow {
+  z-index: 300;
+  top: 91px;
+  left: 78px;
+  width: 20px;
+  height: 8px;
+  border-top: 2px solid #646B73;
+  border-bottom: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+}
+/* line 166, Angela.scss */
+#Angela .eyebrow:before {
+  position: absolute;
+  content: '';
+  top: -3px;
+  left: 41px;
+  width: 20px;
+  height: 8px;
+  border-top: 2px solid #646B73;
+  border-bottom: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+}
+/* line 180, Angela.scss */
+#Angela .glasses {
+  z-index: 35;
+  top: 96px;
+  left: 66px;
+  height: 16px;
+  width: 33px;
+  border: 3px solid #646B73;
+  border-radius: 7px;
+}
+/* line 188, Angela.scss */
+#Angela .glasses::before {
+  position: absolute;
+  content: '';
+  z-index: 35;
+  top: -3px;
+  left: 45px;
+  height: 16px;
+  width: 33px;
+  border: 3px solid #646B73;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+}
+/* line 199, Angela.scss */
+#Angela .glasses:after {
+  position: absolute;
+  content: '';
+  z-index: 35;
+  top: 5px;
+  left: 32px;
+  width: 15px;
+  height: 15px;
+  border-top: 3px solid #646B73;
+  border-bottom: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-radius: 10px;
+}
+/* line 215, Angela.scss */
+#Angela .eye {
+  z-index: 30;
+  top: 103px;
+  left: 82px;
+  width: 16px;
+  height: 8px;
+  border-top: 3px solid #424B54;
+  border-bottom: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-radius: 16px 16px 0 0;
+  -webkit-border-radius: 16px 16px 0 0;
+  -moz-border-radius: 16px 16px 0 0;
+}
+/* line 227, Angela.scss */
+#Angela .eye.right {
+  left: 120px;
+}
+/* line 232, Angela.scss */
+#Angela .blush {
+  z-index: 999;
+  top: 116px;
+  left: 77px;
+  width: 15px;
+  height: 7px;
+  background: #E3879E;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  opacity: 0.4;
+}
+/* line 241, Angela.scss */
+#Angela .blush:before {
+  position: absolute;
+  content: '';
+  left: 52px;
+  width: 15px;
+  height: 7px;
+  background: #E3879E;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+}
+/* line 253, Angela.scss */
+#Angela .nose {
+  z-index: 20;
+  top: 109px;
+  left: 107px;
+  width: 18px;
+  height: 9px;
+  border-left: 2px solid #424B54;
+  border-bottom: 2px solid transparent;
+  border-right: 1px solid transparent;
+  border-top: 1px solid transparent;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  transform: translateZ(1px) rotate(-10deg);
+  -webkit-transform: translateZ(1px) rotate(-10deg);
+  /* Safari and Chrome */
+  -moz-transform: translateZ(1px) rotate(-10deg);
+  /* Firefox */
+  -ms-transform: translateZ(1px) rotate(-10deg);
+}
+/* line 266, Angela.scss */
+#Angela .lip {
+  z-index: 21;
+  top: 119px;
+  left: 94px;
+}
+/* line 270, Angela.scss */
+#Angela .lip:after, #Angela .lip:before {
+  content: "";
+  position: absolute;
+}
+/* line 274, Angela.scss */
+#Angela .lip:before {
+  left: 0;
+  top: 8px;
+  width: 10px;
+  height: 3px;
+  border-left: 1px solid #424B54;
+  border-top: 0 solid transparent;
+  border-bottom: 0 solid transparent;
+  border-right: 0 solid transparent;
+  transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  /* Safari and Chrome */
+  -moz-transform: rotate(10deg);
+  /* Firefox */
+  -ms-transform: rotate(10deg);
+}
+/* line 285, Angela.scss */
+#Angela .lip:after {
+  left: 21px;
+  top: 8px;
+  width: 10px;
+  height: 3px;
+  border-right: 1px solid #424B54;
+  border-top: 0 solid transparent;
+  border-left: 0 solid transparent;
+  border-bottom: 0 solid transparent;
+  transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  /* Safari and Chrome */
+  -moz-transform: rotate(-10deg);
+  /* Firefox */
+  -ms-transform: rotate(-10deg);
+}
+/* line 298, Angela.scss */
+#Angela .mouth {
+  z-index: 20;
+  width: 30px;
+  height: 15px;
+  left: 95px;
+  top: 123px;
+  background: #424B54;
+  overflow: hidden;
+  border-radius: 0 0 30px 30px;
+  -webkit-border-radius: 0 0 30px 30px;
+  -moz-border-radius: 0 0 30px 30px;
+  transform: scaleY(0.5);
+  -webkit-transform: scaleY(0.5);
+  /* Safari and Chrome */
+  -moz-transform: scaleY(0.5);
+  /* Firefox */
+  -ms-transform: scaleY(0.5);
+}
+/* line 314, Angela.scss */
+#Angela .teeth {
+  top: -10px;
+  left: 6px;
+  width: 18px;
+  height: 8px;
+  border-bottom: 8px solid white;
+  border-top: 1px solid transparent;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+/* line 324, Angela.scss */
+#Angela .tongue {
+  top: 10px;
+  left: 6px;
+  width: 20px;
+  height: 5px;
+  background: #f6828c;
+  border-top: 1px solid transparent;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+}
+/* line 334, Angela.scss */
+#Angela .neck {
+  z-index: 13;
+  width: 25px;
+  height: 30px;
+  background: #ffd1c2;
+  top: 130px;
+  left: 97px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+}
+/* line 343, Angela.scss */
+#Angela .bowtie {
+  z-index: 14;
+  top: 161px;
+  left: 84px;
+}
+/* line 347, Angela.scss */
+#Angela .bowtie .front {
+  z-index: 1;
+  left: 17px;
+  top: 6px;
+  height: 13px;
+  width: 7px;
+  background: #98ddff;
+  border: 0.5px solid #f9f9f9;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  /* Safari and Chrome */
+  -moz-transform: rotate(45deg);
+  /* Firefox */
+  -ms-transform: rotate(45deg);
+}
+/* line 357, Angela.scss */
+#Angela .bowtie .front:before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 7px;
+  height: 13px;
+  width: 7px;
+  background: #98ddff;
+  border: 0.5px solid #f9f9f9;
+  transform: rotate(-86deg);
+  -webkit-transform: rotate(-86deg);
+  /* Safari and Chrome */
+  -moz-transform: rotate(-86deg);
+  /* Firefox */
+  -ms-transform: rotate(-86deg);
+}
+/* line 368, Angela.scss */
+#Angela .bowtie .front:after {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: 1px;
+  height: 9px;
+  width: 5px;
+  background: #98ddff;
+  border: 0.5px solid #f9f9f9;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  transform: rotate(-48deg);
+  -webkit-transform: rotate(-48deg);
+  /* Safari and Chrome */
+  -moz-transform: rotate(-48deg);
+  /* Firefox */
+  -ms-transform: rotate(-48deg);
+}
+/* line 381, Angela.scss */
+#Angela .bowtie .back {
+  z-index: 0;
+  left: 19px;
+  top: 10px;
+  height: 18px;
+  width: 7px;
+  background: #98ddff;
+  transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  /* Safari and Chrome */
+  -moz-transform: rotate(10deg);
+  /* Firefox */
+  -ms-transform: rotate(10deg);
+}
+/* line 389, Angela.scss */
+#Angela .bowtie .back:after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 9px;
+  height: 18px;
+  width: 7px;
+  background: #98ddff;
+  transform: rotate(-24deg);
+  -webkit-transform: rotate(-24deg);
+  /* Safari and Chrome */
+  -moz-transform: rotate(-24deg);
+  /* Firefox */
+  -ms-transform: rotate(-24deg);
+}
+/* line 403, Angela.scss */
+#Angela .body {
+  z-index: 10;
+  top: 150px;
+  left: 65px;
+  width: 90px;
+  height: 150px;
+  background: #f9f9f9;
+  overflow: hidden;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+}
+/* line 412, Angela.scss */
+#Angela .body .collar {
+  z-index: 14;
+  background: #ffd1c2;
+  top: -10px;
+  left: 30px;
+  width: 25px;
+  height: 25px;
+  border-right: 5px solid #98ddff;
+  border-bottom: 5px solid #98ddff;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  /* Safari and Chrome */
+  -moz-transform: rotate(45deg);
+  /* Firefox */
+  -ms-transform: rotate(45deg);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+/* line 426, Angela.scss */
+#Angela .cape {
+  z-index: 4;
+  top: 148px;
+  left: 43px;
+  width: 130px;
+  height: 160px;
+  background: #E15554;
+  border-radius: 60px 60px 0 0;
+}
+/* line 436, Angela.scss */
+#Angela .logo {
+  top: 10px;
+  left: 16px;
+  width: 27px;
+  height: 15px;
+  border-bottom: 20px solid #ECD688;
+  border-left: 23px solid transparent;
+  border-right: 22px solid transparent;
+}
+/* line 444, Angela.scss */
+#Angela .logo:before {
+  position: absolute;
+  content: '';
+  top: 35px;
+  left: -22px;
+  border-top: 40px solid #ECD688;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+}
