@@ -4,6 +4,7 @@ import Xuefei from './Xuefei';
 import Tsing from './Tsing';
 import Joy from './Joy';
 import Quinn from './Quinn';
+import Chuck from './Chuck';
 import Christina from './Christina';
 import Mengru from './Mengru';
 import './style/index.css';
@@ -26,6 +27,10 @@ ReactDOM.render(
 ReactDOM.render(
   <Quinn />,
   document.getElementById('Quinn')
+);
+ReactDOM.render(
+  <Chuck />,
+  document.getElementById('Chuck')
 );
 ReactDOM.render(
   <Christina />,
