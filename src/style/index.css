@@ -144,3 +144,9 @@ body {
   color: #1e1e1e;
   text-align: center;
 }
+
+/* line 129, index.scss */
+.note {
+  font-size: 15px!important;
+  color: #a71812 !important;
+}
