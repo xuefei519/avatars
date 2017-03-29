@@ -51,13 +51,14 @@ body {
   font-size: 20px;
   text-align: center;
   color: #999999;
+  margin: 0 20px 0 20px;
 }
 
-/* line 50, index.scss */
+/* line 51, index.scss */
 #body {
   padding-bottom: 120px;
 }
-/* line 52, index.scss */
+/* line 53, index.scss */
 #body .container {
   display: flex;
   flex-wrap: wrap;
@@ -67,7 +68,7 @@ body {
   justify-content: center;
   padding-bottom: 30px;
 }
-/* line 61, index.scss */
+/* line 62, index.scss */
 #body #Xuefei, #body #Tsing, #body #Joy, #body #Quinn, #body #Chuck, #body #Christina, #body #Mengru {
   position: relative;
   margin-top: 200px;
@@ -77,12 +78,12 @@ body {
   cursor: pointer;
 }
 
-/* line 70, index.scss */
+/* line 71, index.scss */
 #image {
   display: none;
   position: absolute;
 }
-/* line 73, index.scss */
+/* line 74, index.scss */
 #image .content {
   position: absolute;
   width: 400px;
@@ -91,7 +92,7 @@ body {
   border-radius: 10px;
 }
 
-/* line 81, index.scss */
+/* line 82, index.scss */
 #footer {
   position: absolute;
   bottom: 0;
@@ -101,13 +102,13 @@ body {
   padding: 10px 0;
   width: 100%;
 }
-/* line 89, index.scss */
+/* line 90, index.scss */
 #footer .love {
   position: relative;
   width: 150px;
   margin: auto;
 }
-/* line 93, index.scss */
+/* line 94, index.scss */
 #footer .love:before {
   content: "";
   position: absolute;
@@ -119,7 +120,7 @@ body {
   border-top: 2px solid #a71812;
   border-bottom: 2px solid #a71812;
 }
-/* line 104, index.scss */
+/* line 105, index.scss */
 #footer .love:after {
   content: "";
   position: absolute;
@@ -132,7 +133,7 @@ body {
   border-bottom: 2px solid #a71812;
 }
 
-/* line 118, index.scss */
+/* line 119, index.scss */
 .name {
   display: none;
   position: absolute;
@@ -145,8 +146,19 @@ body {
   text-align: center;
 }
 
-/* line 129, index.scss */
+/* line 130, index.scss */
 .note {
-  font-size: 15px!important;
   color: #a71812 !important;
+}
+@media screen and (max-width: 400px) {
+  /* line 130, index.scss */
+  .note {
+    font-size: 13px!important;
+  }
+}
+@media screen and (min-width: 400px) {
+  /* line 130, index.scss */
+  .note {
+    font-size: 15px!important;
+  }
 }
