@@ -6,6 +6,7 @@ import Joy from './Joy';
 import Quinn from './Quinn';
 import Angela from './Angela';
 import Chuck from './Chuck';
+import Yoga from './Yoga';
 import Christina from './Christina';
 import Mengru from './Mengru';
 import './style/index.css';
@@ -36,6 +37,10 @@ ReactDOM.render(
 ReactDOM.render(
   <Chuck />,
   document.getElementById('Chuck')
+);
+ReactDOM.render(
+  <Yoga />,
+  document.getElementById('Yoga')
 );
 ReactDOM.render(
   <Christina />,

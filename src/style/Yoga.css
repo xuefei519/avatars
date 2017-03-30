@@ -1,0 +1,398 @@
+/* line 46, Yoga.scss */
+#Yoga .container,
+#Yoga .face,
+#Yoga .hair,
+#Yoga .nose,
+#Yoga .ear,
+#Yoga .neck,
+#Yoga .body,
+#Yoga .cape,
+#Yoga .logo,
+#Yoga .group,
+#Yoga .fringe,
+#Yoga .eye,
+#Yoga .profile-card,
+#Yoga .bowtie,
+#Yoga .front,
+#Yoga .back,
+#Yoga .info,
+#Yoga .teeth,
+#Yoga .tongue,
+#Yoga .profile-wrap,
+#Yoga .name,
+#Yoga .lip,
+#Yoga .mouth,
+#Yoga .eyebrow,
+#Yoga .blush,
+#Yoga .collar,
+#Yoga .glasses {
+  position: absolute;
+}
+/* line 51, Yoga.scss */
+#Yoga .container {
+  position: absolute;
+  margin: auto;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+}
+/* line 61, Yoga.scss */
+#Yoga .profile {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border: 2px solid #FFF;
+  overflow: hidden;
+  background: #e4d3e4;
+}
+/* line 71, Yoga.scss */
+#Yoga .group {
+  left: -7px;
+  top: -5px;
+}
+/* line 76, Yoga.scss */
+#Yoga .face {
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  z-index: 20;
+  top: 58px;
+  left: 70px;
+  width: 80px;
+  height: 95px;
+  background: #f0beaf;
+}
+/* line 86, Yoga.scss */
+#Yoga .hair {
+  z-index: 3;
+  top: 30px;
+  left: 60px;
+  width: 105px;
+  height: 155px;
+  border-radius: 100px 100px 20px 20px;
+  -webkit-border-radius: 100px 100px 20px 20px;
+  -moz-border-radius: 100px 100px 20px 20px;
+  background: #2d2720;
+}
+/* line 96, Yoga.scss */
+#Yoga .hair:before, #Yoga .hair:after {
+  position: absolute;
+  content: '';
+}
+/* line 100, Yoga.scss */
+#Yoga .hair:before {
+  position: absolute;
+  content: '';
+  top: 95px;
+  left: -6px;
+  width: 37px;
+  height: 50px;
+  background: #2d2720;
+  border-radius: 0 0 50px 50px;
+  -webkit-border-radius: 0 0 50px 50px;
+  -moz-border-radius: 0 0 50px 50px;
+  transform: rotate(16deg);
+}
+/* line 111, Yoga.scss */
+#Yoga .hair:after {
+  position: absolute;
+  content: '';
+  top: 74px;
+  left: 72px;
+  width: 37px;
+  height: 70px;
+  background: #2d2720;
+  border-radius: 0 0 50px 50px;
+  -webkit-border-radius: 0 0 50px 50px;
+  -moz-border-radius: 0 0 50px 50px;
+  transform: rotate(-20deg);
+}
+/* line 124, Yoga.scss */
+#Yoga .ear {
+  z-index: 4;
+  top: 93px;
+  left: 61px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  background: #f0beaf;
+}
+/* line 132, Yoga.scss */
+#Yoga .ear:before {
+  position: absolute;
+  top: 8px;
+  left: 4px;
+  content: '';
+  width: 20px;
+  height: 15px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  background: #ED8A80;
+}
+/* line 144, Yoga.scss */
+#Yoga .ear.right {
+  left: 130px;
+}
+/* line 147, Yoga.scss */
+#Yoga .fringe {
+  z-index: 99;
+  top: 25px;
+  left: 62px;
+  border-left: 20px solid #2d2720;
+  border-top: 20px solid transparent;
+  height: 121px;
+  width: 85px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  transform: rotate(22deg);
+  -webkit-transform: rotate(22deg);
+  /* Safari and Chrome */
+  -moz-transform: rotate(22deg);
+  /* Firefox */
+  -ms-transform: rotate(22deg);
+}
+/* line 158, Yoga.scss */
+#Yoga .fringe:before {
+  content: "";
+  position: absolute;
+  top: -18px;
+  left: -30px;
+  border-right: 20px solid #2d2720;
+  border-top: 20px solid transparent;
+  height: 121px;
+  width: 85px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  transform: rotate(-46deg);
+  -webkit-transform: rotate(-46deg);
+  /* Safari and Chrome */
+  -moz-transform: rotate(-46deg);
+  /* Firefox */
+  -ms-transform: rotate(-46deg);
+}
+/* line 174, Yoga.scss */
+#Yoga .eyebrow {
+  z-index: 98;
+  top: 89px;
+  left: 78px;
+  width: 18px;
+  height: 8px;
+  border-top: 3px solid #646B73;
+  border-bottom: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+}
+/* line 185, Yoga.scss */
+#Yoga .eyebrow:before {
+  position: absolute;
+  content: '';
+  top: -3px;
+  left: 43px;
+  width: 18px;
+  height: 8px;
+  border-top: 3px solid #646B73;
+  border-bottom: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+}
+/* line 201, Yoga.scss */
+#Yoga .eye {
+  z-index: 30;
+  top: 100px;
+  left: 78px;
+  width: 16px;
+  height: 8px;
+  background: white;
+  border: 2px solid #424B54;
+  border-top: 3px solid #424B54;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+}
+/* line 213, Yoga.scss */
+#Yoga .eye:before {
+  position: absolute;
+  content: '';
+  top: -2px;
+  left: 3px;
+  width: 11px;
+  height: 11px;
+  background: #424B54;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+}
+/* line 229, Yoga.scss */
+#Yoga .eye.right {
+  left: 121px;
+}
+/* line 234, Yoga.scss */
+#Yoga .blush {
+  z-index: 999;
+  top: 118px;
+  left: 77px;
+  width: 15px;
+  height: 7px;
+  background: #E3879E;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  opacity: 0.4;
+}
+/* line 243, Yoga.scss */
+#Yoga .blush:before {
+  position: absolute;
+  content: '';
+  left: 52px;
+  width: 15px;
+  height: 7px;
+  background: #E3879E;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+}
+/* line 255, Yoga.scss */
+#Yoga .nose {
+  z-index: 20;
+  top: 105px;
+  left: 107px;
+  width: 4px;
+  height: 15px;
+  border-left: 2px solid transparent;
+  border-bottom: 2px solid #424B54;
+  border-right: 1px solid transparent;
+  border-top: 1px solid transparent;
+  border-radius: 0 0 0 5px;
+  transform: rotate(25deg);
+}
+/* line 268, Yoga.scss */
+#Yoga .lip {
+  z-index: 21;
+  top: 119px;
+  left: 94px;
+}
+/* line 272, Yoga.scss */
+#Yoga .lip:after, #Yoga .lip:before {
+  content: "";
+  position: absolute;
+}
+/* line 276, Yoga.scss */
+#Yoga .lip:before {
+  left: 0;
+  top: 8px;
+  width: 10px;
+  height: 3px;
+  border-left: 1px solid #424B54;
+  border-top: 0 solid transparent;
+  border-bottom: 0 solid transparent;
+  border-right: 0 solid transparent;
+  transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  /* Safari and Chrome */
+  -moz-transform: rotate(10deg);
+  /* Firefox */
+  -ms-transform: rotate(10deg);
+}
+/* line 287, Yoga.scss */
+#Yoga .lip:after {
+  left: 21px;
+  top: 8px;
+  width: 10px;
+  height: 3px;
+  border-right: 1px solid #424B54;
+  border-top: 0 solid transparent;
+  border-left: 0 solid transparent;
+  border-bottom: 0 solid transparent;
+  transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  /* Safari and Chrome */
+  -moz-transform: rotate(-10deg);
+  /* Firefox */
+  -ms-transform: rotate(-10deg);
+}
+/* line 300, Yoga.scss */
+#Yoga .mouth {
+  z-index: 20;
+  top: 124px;
+  left: 100px;
+  width: 20px;
+  height: 10px;
+  border-bottom: 2px solid #424B54;
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+}
+/* line 313, Yoga.scss */
+#Yoga .teeth {
+  top: -10px;
+  left: 6px;
+  width: 18px;
+  height: 8px;
+  border-bottom: 8px solid white;
+  border-top: 1px solid transparent;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+/* line 323, Yoga.scss */
+#Yoga .tongue {
+  top: 10px;
+  left: 6px;
+  width: 20px;
+  height: 5px;
+  background: #f6828c;
+  border-top: 1px solid transparent;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+}
+/* line 333, Yoga.scss */
+#Yoga .neck {
+  z-index: 13;
+  width: 25px;
+  height: 30px;
+  background: #f0beaf;
+  top: 135px;
+  left: 97px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+}
+/* line 343, Yoga.scss */
+#Yoga .body {
+  z-index: 10;
+  top: 156px;
+  left: 65px;
+  width: 90px;
+  height: 150px;
+  background: #7b9c98;
+  overflow: hidden;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+}
+/* line 352, Yoga.scss */
+#Yoga .body .collar {
+  z-index: 14;
+  background: #f0beaf;
+  top: -14px;
+  left: 27px;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+}
