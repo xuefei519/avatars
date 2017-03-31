@@ -31,10 +31,10 @@ body {
   }
   .subtitle{
       font-family: $title;
-      font-size: 30px;
+      font-size: 23px;
       position: relative;
-      width: 100%;
-      margin: 0;
+      width: 80vw;
+      margin: auto;
       text-align: center;
       color:$black;
       top: -20px;
@@ -42,6 +42,7 @@ body {
 
 
 .description p{
+  padding-top: 15px;
   font-family: $content;
   font-size: 20px;
   text-align: center;

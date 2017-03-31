@@ -36,10 +36,10 @@ body {
 /* line 32, index.scss */
 .subtitle {
   font-family: "Macondo", cursive;
-  font-size: 30px;
+  font-size: 23px;
   position: relative;
-  width: 100%;
-  margin: 0;
+  width: 80vw;
+  margin: auto;
   text-align: center;
   color: #1e1e1e;
   top: -20px;
@@ -47,6 +47,7 @@ body {
 
 /* line 44, index.scss */
 .description p {
+  padding-top: 15px;
   font-family: "Bitter", serif;
   font-size: 20px;
   text-align: center;
@@ -54,11 +55,11 @@ body {
   margin: 0 20px 0 20px;
 }
 
-/* line 51, index.scss */
+/* line 52, index.scss */
 #body {
   padding-bottom: 120px;
 }
-/* line 53, index.scss */
+/* line 54, index.scss */
 #body .container {
   display: flex;
   flex-wrap: wrap;
@@ -68,7 +69,7 @@ body {
   justify-content: center;
   padding-bottom: 30px;
 }
-/* line 62, index.scss */
+/* line 63, index.scss */
 #body #Xuefei, #body #Tsing, #body #Joy, #body #Quinn, #body #Angela, #body #Chuck, #body #Yoga, #body #Christina, #body #Mengru {
   position: relative;
   margin-top: 200px;
@@ -78,12 +79,12 @@ body {
   cursor: pointer;
 }
 
-/* line 71, index.scss */
+/* line 72, index.scss */
 #image {
   display: none;
   position: absolute;
 }
-/* line 74, index.scss */
+/* line 75, index.scss */
 #image .content {
   position: absolute;
   width: 400px;
@@ -92,7 +93,7 @@ body {
   border-radius: 10px;
 }
 
-/* line 82, index.scss */
+/* line 83, index.scss */
 #footer {
   position: absolute;
   bottom: 0;
@@ -102,13 +103,13 @@ body {
   padding: 10px 0;
   width: 100%;
 }
-/* line 90, index.scss */
+/* line 91, index.scss */
 #footer .love {
   position: relative;
   width: 150px;
   margin: auto;
 }
-/* line 94, index.scss */
+/* line 95, index.scss */
 #footer .love:before {
   content: "";
   position: absolute;
@@ -120,7 +121,7 @@ body {
   border-top: 2px solid #a71812;
   border-bottom: 2px solid #a71812;
 }
-/* line 105, index.scss */
+/* line 106, index.scss */
 #footer .love:after {
   content: "";
   position: absolute;
@@ -133,7 +134,7 @@ body {
   border-bottom: 2px solid #a71812;
 }
 
-/* line 119, index.scss */
+/* line 120, index.scss */
 .name {
   display: none;
   position: absolute;
@@ -146,18 +147,18 @@ body {
   text-align: center;
 }
 
-/* line 130, index.scss */
+/* line 131, index.scss */
 .note {
   color: #a71812 !important;
 }
 @media screen and (max-width: 400px) {
-  /* line 130, index.scss */
+  /* line 131, index.scss */
   .note {
     font-size: 13px!important;
   }
 }
 @media screen and (min-width: 400px) {
-  /* line 130, index.scss */
+  /* line 131, index.scss */
   .note {
     font-size: 15px!important;
   }
