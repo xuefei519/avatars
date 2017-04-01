@@ -60,7 +60,7 @@ body {
   justify-content: center;
   padding-bottom: 30px;
 }
-#Xuefei,#Tsing,#Joy,#Quinn,#Angela,#Chuck,#Yoga,#Christina,#Mengru{
+#Xuefei,#Tsing,#Joy,#Quinn,#Angela,#Chuck,#Pmc,#Yoga,#Christina,#Mengru{
   position: relative;
     margin-top: 200px;
     width: 250px;
@@ -127,6 +127,9 @@ cursor: pointer;
   font-size: 30px;
   color: $black;
   text-align: center;
+}
+.body{
+  font-family: $title;
 }
 .note{
 
