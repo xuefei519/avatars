@@ -205,10 +205,10 @@
 /* line 196, Christina.scss */
 #Christina .eye {
   z-index: 30;
-  top: 97px;
+  top: 96px;
   left: 80px;
   width: 11px;
-  height: 11px;
+  height: 15px;
   background: #424B54;
   border-radius: 100%;
   -webkit-border-radius: 100%;
@@ -220,7 +220,7 @@
   content: '';
   left: 50px;
   width: 11px;
-  height: 11px;
+  height: 15px;
   background: #424B54;
   border-radius: 100%;
   -webkit-border-radius: 100%;
