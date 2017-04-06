@@ -6,6 +6,7 @@ import Joy from './Joy';
 import Quinn from './Quinn';
 import Angela from './Angela';
 import Chuck from './Chuck';
+import Su3 from './Su3';
 import Yoga from './Yoga';
 import Christina from './Christina';
 import Mengru from './Mengru';
@@ -37,6 +38,10 @@ ReactDOM.render(
 ReactDOM.render(
   <Chuck />,
   document.getElementById('Chuck')
+);
+ReactDOM.render(
+  <Su3/>,
+  document.getElementById('Su3')
 );
 ReactDOM.render(
   <Yoga />,
