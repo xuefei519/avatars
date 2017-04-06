@@ -6,7 +6,11 @@ import Joy from './Joy';
 import Quinn from './Quinn';
 import Angela from './Angela';
 import Chuck from './Chuck';
+<<<<<<< HEAD
 import Su3 from './Su3';
+=======
+import Pmc from './Pmc';
+>>>>>>> fd525a8370df8f575db7caf9395dccb8c1a1001f
 import Yoga from './Yoga';
 import Christina from './Christina';
 import Mengru from './Mengru';
@@ -40,8 +44,13 @@ ReactDOM.render(
   document.getElementById('Chuck')
 );
 ReactDOM.render(
+<<<<<<< HEAD
   <Su3/>,
   document.getElementById('Su3')
+=======
+  <Pmc />,
+  document.getElementById('Pmc')
+>>>>>>> fd525a8370df8f575db7caf9395dccb8c1a1001f
 );
 ReactDOM.render(
   <Yoga />,

@@ -1,164 +1,58 @@
-/* line 9, index.scss */
-body {
-  background: #f0f0f0;
-  min-height: 100%;
-  margin: 0;
-}
+/*
+Syntax error: Invalid CSS after "}": expected "}", was "<<<<<<< HEAD"
+        on line 63 of C:/Users/xshi/Desktop/design/avatars/src/style/index.scss
 
-/* line 14, index.scss */
-.content {
-  min-height: 100vh;
-  position: relative;
-}
-
-/* line 18, index.scss */
-.title {
-  padding: 50px 0 20px 0;
-  width: 100%;
-  margin: 0;
-  font-family: "Macondo", cursive;
-  text-align: center;
-  color: #1e1e1e;
-}
-@media screen and (max-width: 400px) {
-  /* line 18, index.scss */
-  .title {
-    font-size: 50px;
-  }
-}
-@media screen and (min-width: 400px) {
-  /* line 18, index.scss */
-  .title {
-    font-size: 80px;
-  }
-}
-
-/* line 32, index.scss */
-.subtitle {
-  font-family: "Macondo", cursive;
-  font-size: 30px;
-  position: relative;
-  width: 100%;
-  margin: 0;
-  text-align: center;
-  color: #1e1e1e;
-  top: -20px;
-}
-
-/* line 44, index.scss */
-.description p {
-  font-family: "Bitter", serif;
-  font-size: 20px;
-  text-align: center;
-  color: #999999;
-  margin: 0 20px 0 20px;
-}
-
-/* line 51, index.scss */
-#body {
-  padding-bottom: 120px;
-}
-/* line 53, index.scss */
-#body .container {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  justify-content: center;
-  padding-bottom: 30px;
-}
-/* line 62, index.scss */
-#body #Xuefei, #body #Tsing, #body #Joy, #body #Quinn, #body #Angela, #body #Chuck, #body #Su3, #body #Yoga, #body #Christina, #body #Mengru {
-  position: relative;
-  margin-top: 200px;
-  width: 250px;
-  display: flex;
-  padding: 30px;
-  cursor: pointer;
-}
-
-/* line 71, index.scss */
-#image {
-  display: none;
-  position: absolute;
-}
-/* line 74, index.scss */
-#image .content {
-  position: absolute;
-  width: 400px;
-  height: 400px;
-  background: #fce3e2;
-  border-radius: 10px;
-}
-
-/* line 82, index.scss */
-#footer {
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  color: #a71812;
-  font-family: "Bitter", serif;
-  padding: 10px 0;
-  width: 100%;
-}
-/* line 90, index.scss */
-#footer .love {
-  position: relative;
-  width: 150px;
-  margin: auto;
-}
-/* line 94, index.scss */
-#footer .love:before {
-  content: "";
-  position: absolute;
-  width: 35px;
-  height: 53px;
-  top: 8px;
-  left: -13px;
-  border-left: 2px solid #a71812;
-  border-top: 2px solid #a71812;
-  border-bottom: 2px solid #a71812;
-}
-/* line 105, index.scss */
-#footer .love:after {
-  content: "";
-  position: absolute;
-  width: 35px;
-  height: 53px;
-  top: 8px;
-  left: 127px;
-  border-right: 2px solid #a71812;
-  border-top: 2px solid #a71812;
-  border-bottom: 2px solid #a71812;
-}
-
-/* line 119, index.scss */
-.name {
-  display: none;
-  position: absolute;
-  bottom: -40px;
-  left: 0;
-  right: 0;
-  font-family: "Macondo", cursive;
-  font-size: 30px;
-  color: #1e1e1e;
-  text-align: center;
-}
-
-/* line 130, index.scss */
-.note {
-  color: #a71812 !important;
-}
-@media screen and (max-width: 400px) {
-  /* line 130, index.scss */
-  .note {
-    font-size: 13px!important;
-  }
-}
-@media screen and (min-width: 400px) {
-  /* line 130, index.scss */
-  .note {
-    font-size: 15px!important;
-  }
-}
+Backtrace:
+C:/Users/xshi/Desktop/design/avatars/src/style/index.scss:63
+C:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:1129:in `expected'
+C:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:1066:in `expected'
+C:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:1061:in `tok!'
+C:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:519:in `block'
+C:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:512:in `ruleset'
+C:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:536:in `block_child'
+C:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:529:in `block_contents'
+C:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:70:in `stylesheet'
+C:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:27:in `parse'
+C:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/engine.rb:342:in `_to_tree'
+C:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/engine.rb:315:in `_render'
+C:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/engine.rb:262:in `render'
+C:/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `compile'
+C:/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+C:/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `compile'
+C:/vendor/gems/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+C:/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+C:/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+C:/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `run'
+org/jruby/RubyArray.java:1603:in `each'
+C:/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `run'
+C:/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+C:/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+C:/vendor/gems/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
+org/jruby/RubyMethod.java:133:in `call'
+org/jruby/RubyProc.java:268:in `call'
+org/jruby/RubyProc.java:228:in `call'
+C:/vendor/gems/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `run_callback'
+C:/vendor/gems/gems/fssm-0.2.9/lib/fssm/path.rb:55:in `callback_action'
+C:/vendor/gems/gems/fssm-0.2.9/lib/fssm/path.rb:35:in `update'
+C:/vendor/gems/gems/fssm-0.2.9/lib/fssm/state/directory.rb:39:in `modified'
+org/jruby/RubyArray.java:1603:in `each'
+C:/vendor/gems/gems/fssm-0.2.9/lib/fssm/state/directory.rb:37:in `modified'
+C:/vendor/gems/gems/fssm-0.2.9/lib/fssm/state/directory.rb:18:in `refresh'
+C:/vendor/gems/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `run'
+org/jruby/RubyArray.java:1603:in `each'
+C:/vendor/gems/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `run'
+org/jruby/RubyKernel.java:1419:in `loop'
+C:/vendor/gems/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:15:in `run'
+C:/vendor/gems/gems/fssm-0.2.9/lib/fssm/monitor.rb:26:in `run'
+C:/vendor/gems/gems/fssm-0.2.9/lib/fssm.rb:70:in `monitor'
+C:/vendor/gems/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
+C:/vendor/gems/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+C:/vendor/gems/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+C:/vendor/gems/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+C:/vendor/gems/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+C:\bin\compass:12:in `(root)'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"}\": expected \"}\", was \"<<<<<<< HEAD\"\A         on line 63 of C:/Users/xshi/Desktop/design/avatars/src/style/index.scss"; }
