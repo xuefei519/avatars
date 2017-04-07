@@ -1,0 +1,410 @@
+/* line 41, Yozen.scss */
+#Yozen .container,
+#Yozen .face,
+#Yozen .hair,
+#Yozen .nose,
+#Yozen .ear,
+#Yozen .neck,
+#Yozen .body,
+#Yozen .cape,
+#Yozen .logo,
+#Yozen .group,
+#Yozen .fringe,
+#Yozen .eye,
+#Yozen .profile-card,
+#Yozen .yes,
+#Yozen .no,
+#Yozen .info,
+#Yozen .tongue,
+#Yozen .profile-wrap,
+#Yozen .name,
+#Yozen .lip,
+#Yozen .mouth,
+#Yozen .eyebrow,
+#Yozen .blush,
+#Yozen .collar {
+  position: absolute;
+}
+/* line 45, Yozen.scss */
+#Yozen .container {
+  position: absolute;
+  margin: auto;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+}
+/* line 55, Yozen.scss */
+#Yozen .profile {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border: 2px solid #FFF;
+  overflow: hidden;
+  background: #ece8c5;
+}
+/* line 65, Yozen.scss */
+#Yozen .group {
+  left: -7px;
+}
+/* line 69, Yozen.scss */
+#Yozen .face {
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  z-index: 20;
+  top: 50px;
+  left: 65px;
+  width: 90px;
+  height: 100px;
+  background: #d8ab9d;
+}
+/* line 79, Yozen.scss */
+#Yozen .hair {
+  z-index: 3;
+  top: 40px;
+  left: 60px;
+  width: 100px;
+  height: 110px;
+  border-radius: 39px 39px 100px 100px;
+  background: #181010;
+}
+/* line 90, Yozen.scss */
+#Yozen .ear {
+  z-index: 4;
+  top: 93px;
+  left: 55px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  background: #d8ab9d;
+}
+/* line 98, Yozen.scss */
+#Yozen .ear:before {
+  position: absolute;
+  top: 8px;
+  left: 4px;
+  content: '';
+  width: 20px;
+  height: 15px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  background: #d57c73;
+}
+/* line 110, Yozen.scss */
+#Yozen .ear.right {
+  left: 137px;
+}
+/* line 114, Yozen.scss */
+#Yozen .fringe {
+  z-index: 99;
+  top: 29px;
+  left: 78px;
+  width: 80px;
+  height: 25px;
+  background: #181010;
+  border-radius: 100% 100% 0 0;
+  -webkit-border-radius: 100% 100% 0 0;
+  -moz-border-radius: 100% 100% 0 0;
+  transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  /* Safari and Chrome */
+  -moz-transform: rotate(10deg);
+  /* Firefox */
+  -ms-transform: rotate(10deg);
+}
+/* line 124, Yozen.scss */
+#Yozen .fringe:before {
+  position: absolute;
+  content: '';
+  top: 18px;
+  left: 50px;
+  width: 25px;
+  height: 28px;
+  border-right: 8px solid #181010;
+  border-left: 8px solid transparent;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-radius: 0 0 25px 0;
+  -webkit-border-radius: 0 0 25px 0;
+  -moz-border-radius: 0 0 25px 0;
+  transform: rotate(-25deg);
+  -webkit-transform: rotate(-25deg);
+  /* Safari and Chrome */
+  -moz-transform: rotate(-25deg);
+  /* Firefox */
+  -ms-transform: rotate(-25deg);
+}
+/* line 142, Yozen.scss */
+#Yozen .eyebrow {
+  z-index: 300;
+  top: 84px;
+  left: 73px;
+  width: 23px;
+  height: 8px;
+  border-top: 3px solid #646B73;
+  border-bottom: 3px solid transparent;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-radius: 100%;
+  transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+  /* Safari and Chrome */
+  -moz-transform: rotate(5deg);
+  /* Firefox */
+  -ms-transform: rotate(5deg);
+}
+/* line 154, Yozen.scss */
+#Yozen .eyebrow:before {
+  position: absolute;
+  content: '';
+  top: -8px;
+  left: 46px;
+  width: 23px;
+  height: 8px;
+  border-top: 3px solid #646B73;
+  border-bottom: 3px solid transparent;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-radius: 100%;
+  transform: rotate(-10deg);
+}
+/* line 170, Yozen.scss */
+#Yozen .eye {
+  z-index: 30;
+  top: 97px;
+  left: 82px;
+  width: 8px;
+  height: 11px;
+  background: #424B54;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+}
+/* line 179, Yozen.scss */
+#Yozen .eye.right {
+  left: 132px;
+}
+/* line 184, Yozen.scss */
+#Yozen .blush {
+  z-index: 999;
+  top: 113px;
+  left: 70px;
+  width: 15px;
+  height: 7px;
+  background: #E3879E;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  opacity: 0.7;
+}
+/* line 193, Yozen.scss */
+#Yozen .blush:before {
+  position: absolute;
+  content: '';
+  left: 65px;
+  width: 15px;
+  height: 7px;
+  background: #E3879E;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+}
+/* line 205, Yozen.scss */
+#Yozen .nose {
+  z-index: 20;
+  top: 110px;
+  left: 103px;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid transparent;
+  border-bottom: 2px solid #424B54;
+  border-left: 2px solid #424B54;
+  border-top: 2px solid #424B54;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+}
+/* line 216, Yozen.scss */
+#Yozen .nose:before {
+  content: "";
+  position: absolute;
+  top: -11px;
+  left: -2px;
+  height: 11px;
+  width: 8px;
+  border-right: 2px solid #424B54;
+}
+/* line 226, Yozen.scss */
+#Yozen .lip {
+  z-index: 21;
+  top: 118px;
+  left: 98px;
+  width: 25px;
+  height: 13px;
+  border-bottom: 2px solid #424B54;
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+}
+/* line 240, Yozen.scss */
+#Yozen .mouth {
+  z-index: 20;
+  top: 128px;
+  left: 94px;
+  width: 35px;
+  height: 10px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  background: #F0BEAF;
+  /*border-bottom: 8px solid #F0BEAF;
+  border-top: 8px solid transparent;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;*/
+}
+/* line 253, Yozen.scss */
+#Yozen .mouth:before, #Yozen .mouth:after {
+  display: none;
+  content: "";
+  position: absolute;
+  height: 7px;
+  width: 8px;
+  background: #F0BEAF;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+}
+/* line 262, Yozen.scss */
+#Yozen .mouth:before {
+  left: -4px;
+  top: 9px;
+}
+/* line 266, Yozen.scss */
+#Yozen .mouth:after {
+  left: 31px;
+  top: 9px;
+}
+/* line 272, Yozen.scss */
+#Yozen .tongue {
+  top: 5px;
+  left: 8px;
+  width: 30px;
+  height: 20px;
+  background: #f6828c;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+}
+/* line 281, Yozen.scss */
+#Yozen .neck {
+  z-index: 13;
+  width: 32px;
+  height: 30px;
+  background: #d8ab9d;
+  top: 130px;
+  left: 95px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+}
+/* line 289, Yozen.scss */
+#Yozen .neck:after {
+  content: "";
+  position: absolute;
+  top: 18px;
+  left: 9px;
+  height: 14px;
+  width: 14px;
+  background: #d8ab9d;
+  border-left: 1px solid #424B54;
+  border-bottom: 1px solid #424B54;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  /* Safari and Chrome */
+  -moz-transform: rotate(-45deg);
+  /* Firefox */
+  -ms-transform: rotate(-45deg);
+}
+/* line 302, Yozen.scss */
+#Yozen .collar {
+  z-index: 15;
+  top: 152px;
+  left: 82px;
+  width: 20px;
+  height: 10px;
+  transform: rotate(19deg);
+  background: #90aac1;
+  border: 1px solid #424B54;
+}
+/* line 312, Yozen.scss */
+#Yozen .collar:after {
+  content: "";
+  position: absolute;
+  left: 33px;
+  top: -14px;
+  width: 20px;
+  height: 10px;
+  background: #90aac1;
+  border: 1px solid #424B54;
+  transform: rotate(-41deg);
+}
+/* line 325, Yozen.scss */
+#Yozen .body {
+  z-index: 10;
+  top: 150px;
+  left: 65px;
+  width: 90px;
+  height: 150px;
+  background: #90aac1;
+  overflow: hidden;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+}
+/* line 334, Yozen.scss */
+#Yozen .body:after {
+  content: "";
+  position: absolute;
+  height: 50px;
+  width: 5px;
+  left: 40px;
+  border-right: 2px solid #424B54;
+}
+/* line 344, Yozen.scss */
+#Yozen .cape {
+  z-index: 4;
+  top: 148px;
+  left: 43px;
+  width: 130px;
+  height: 160px;
+  background: #E15554;
+  border-radius: 60px 60px 0 0;
+}
+/* line 354, Yozen.scss */
+#Yozen .logo {
+  top: 10px;
+  left: 16px;
+  width: 27px;
+  height: 15px;
+  border-bottom: 20px solid #ECD688;
+  border-left: 23px solid transparent;
+  border-right: 22px solid transparent;
+}
+/* line 362, Yozen.scss */
+#Yozen .logo:before {
+  position: absolute;
+  content: '';
+  top: 35px;
+  left: -22px;
+  border-top: 40px solid #ECD688;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+}
