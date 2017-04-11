@@ -8,6 +8,7 @@ import Angela from './Angela';
 import Chuck from './Chuck';
 import Su3 from './Su3';
 import Pmc from './Pmc';
+import Ysy from './Ysy';
 import Yozen from './Yozen';
 import Yoga from './Yoga';
 import Christina from './Christina';
@@ -52,6 +53,10 @@ ReactDOM.render(
 ReactDOM.render(
   <Yozen />,
   document.getElementById('Yozen')
+);
+ReactDOM.render(
+  <Ysy />,
+  document.getElementById('Ysy')
 );
 ReactDOM.render(
   <Yoga />,
