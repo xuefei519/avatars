@@ -14,6 +14,7 @@ class Xuefei extends Component {
             <div className="face"></div>
             <div className="eyebrow"></div>
             <div className="eye"></div>
+            <div class="eye right"></div>
             <div className="glasses"></div>
             <div className="blush"></div>
             <div className="nose"></div>

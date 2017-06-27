@@ -176,7 +176,7 @@ $cloth:#f68e97;
 }
 .glasses{
   z-index: 35;
-  top: 96px;
+  top: 99px;
   left: 66px;
   height: 16px;
   width: 33px;
@@ -211,27 +211,41 @@ $cloth:#f68e97;
 
 .eye {
   z-index: 30;
-  top: 103px;
-  left: 83px;
-  width: 11px;
-  height: 8px;
-  background: #424B54;
+  top: 100px;
+  left: 79px;
+  width: 15px;
+  height: 15px;
+  background: #ffb679;
+  border: 2px solid #424B54;
   @include border(100%);
-  &:before {
+  &:after{
     position: absolute;
     content: '';
-    left: 43px;
-    width: 11px;
-    height: 8px;
-    background: #424B54;
-    @include border(100%);
+    left: 5px;
+    height: 14px;
+    width: 5px;
+    border-radius: 100%;
+    background: #383838;
   }
+  &:before{
+    position: absolute;
+    content: '';
+    top: 2px;
+    left: 2px;
+    height: 11px;
+    width: 11px;
+    border-radius: 100%;
+    background: #fdea7b;
+  }
+}
+.eye.right{
+    left: 125px;
 }
 
 
 .blush {
   z-index: 999;
-  top: 116px;
+  top: 121px;
   left: 77px;
   width: 15px;
   height: 7px;
