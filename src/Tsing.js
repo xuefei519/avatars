@@ -13,9 +13,16 @@ class Tsing extends Component {
             <div className="ear right"></div>
             <div className="face"></div>
             <div className="eyebrow"></div>
-            <div className="eye"></div>
-            <div className="eye right"></div>
-            <div className="glasses"></div>
+            <div className="tohide">
+              <div className="eye"></div>
+              <div className="eye right"></div>
+              <div className="glasses"></div>
+            </div>
+            <div className="deco">
+              <div className="cateye"></div>
+              <div className="cateye right"></div>
+            </div>
+
             <div className="blush"></div>
             <div className="mouth">
             </div>

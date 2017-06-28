@@ -20,6 +20,7 @@ $pink: #F6828C;
 .group,
 .fringe,
 .eye,
+.cateye,
 .profile-card,
 .yes,
 .no,
@@ -59,7 +60,9 @@ $pink: #F6828C;
 .group {
   left: -7px;
 }
-
+.deco{
+  display: none;
+}
 .face {
   @include border(100px);
   z-index: 20;
@@ -235,7 +238,39 @@ $pink: #F6828C;
 .eye.right{
   left:120px;
 }
-
+.cateye {
+  z-index: 30;
+  top: 97px;
+  left: 76px;
+  width: 24px;
+  height: 12px;
+  background: #ffb679;
+  @include border(0 0 24px 24px);
+  border: 2px solid #424B54;
+  &:after{
+    position: absolute;
+    content: '';
+    left: 9px;
+    top: -2px;
+    height: 14px;
+    width: 6px;
+    @include border(100%);
+    background: #383838;
+  }
+  &:before{
+    position: absolute;
+    content: '';
+    top: 1px;
+    left: 2px;
+    height: 10px;
+    width: 20px;
+    @include border(0 0 20px 20px);
+    background: #fdea7b;
+  }
+}
+.cateye.right{
+  left:120px;
+}
 
 .blush {
   z-index: 999;
