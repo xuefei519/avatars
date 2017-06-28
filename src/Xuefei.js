@@ -16,17 +16,17 @@ class Xuefei extends Component {
             <div className="tohide">
               <div className="eye"></div>
               <div className="glasses"></div>
+              <div className="mouth">
+              </div>
             </div>
             <div className="deco">
               <div className="cateye"></div>
               <div className="cateye right"></div>
+              <div className="catmouth"></div>
             </div>
 
             <div className="blush"></div>
             <div className="nose"></div>
-            <div className="mouth">
-              <div className="tongue"></div>
-            </div>
             <div className="neck"></div>
             <div className="body">
             <div className="collar"></div>
