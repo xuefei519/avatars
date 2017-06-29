@@ -156,37 +156,40 @@ $cloth:#fff8ed;
   top: 40px;
   left: 79px;
   width: 61px;
-  height: 47px;
+  //height: 47px;
   background:$hair;
   border-radius:10px;
   &:before {
     position: absolute;
     content: "";
-    left: -10px;
-    top: 25px;
+    left: -6px;
+    top: 7px;
     width: 30px;
-    height: 68px;
-    border-left: 4px solid $hair;
+    height: 58px;
+    border-left: 15px solid $hair;
     border-top: 1px solid transparent;
     border-bottom: 1px solid transparent;
     border-right: 1px solid transparent;
-    border-radius: 0 20px;
+    border-radius:0 20px;
+    transform: rotate(30deg);
   }
   &:after{
     position: absolute;
     content: "";
-    left: 37px;
-    top: 25px;
+    left: 18px;
+    top: 3px;
     width: 30px;
-    height: 68px;
-    border-right: 4px solid $hair;
+    height: 65px;
+    border-right: 20px solid $hair;
     border-top: 1px solid transparent;
     border-bottom: 1px solid transparent;
     border-left: 1px solid transparent;
-    border-radius: 20px 0;
+    border-radius:30px 0;
+    transform: rotate(-42deg);
   }
 }
 .fringe.left{
+  display: none;
   z-index: 100;
 left: 86px;
 top: 58px;
@@ -213,6 +216,7 @@ border-radius: 0 20px;
 }
 }
 .fringe.right{
+  display:none;
   z-index: 100;
   left: 100px;
   top: 64px;

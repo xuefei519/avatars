@@ -11,8 +11,7 @@ class Joy extends Component {
             <div className="ear"></div>
             <div className="ear right"></div>
             <div className="fringebase"></div>
-            <div className="fringe left"></div>
-            <div className="fringe right"></div>
+            
 
             <div className="face"></div>
             <div className="eyebrow"></div>
