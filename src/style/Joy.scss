@@ -65,10 +65,10 @@ $cloth:#fff8ed;
 .face {
   @include border(100px);
   z-index: 20;
-  top: 49px;
+  top: 59px;
   left: 70px;
   width: 80px;
-  height: 100px;
+  height: 90px;
   background: $skin;
   &:after{
     content: "";
@@ -162,8 +162,8 @@ $cloth:#fff8ed;
   &:before {
     position: absolute;
     content: "";
-    left: -6px;
-    top: 7px;
+    left: -5px;
+    top: 9px;
     width: 30px;
     height: 58px;
     border-left: 15px solid $hair;
@@ -171,13 +171,13 @@ $cloth:#fff8ed;
     border-bottom: 1px solid transparent;
     border-right: 1px solid transparent;
     border-radius:0 20px;
-    transform: rotate(30deg);
+    transform: rotate(35deg);
   }
   &:after{
     position: absolute;
     content: "";
-    left: 18px;
-    top: 3px;
+    left: 17px;
+    top: 5px;
     width: 30px;
     height: 65px;
     border-right: 20px solid $hair;
@@ -185,7 +185,7 @@ $cloth:#fff8ed;
     border-bottom: 1px solid transparent;
     border-left: 1px solid transparent;
     border-radius:30px 0;
-    transform: rotate(-42deg);
+    transform: rotate(-51deg);
   }
 }
 .fringe.left{
