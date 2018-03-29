@@ -16,8 +16,6 @@ import Mengru from './Mengru';
 import AnnieH from './AnnieH';
 import './style/index.css';
 import $ from 'jquery';
-import domtoimage from 'dom-to-image';
-import FileSaver from 'file-saver';
 
 ReactDOM.render(
   <Xuefei />,
