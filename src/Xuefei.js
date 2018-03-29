@@ -13,18 +13,11 @@ class Xuefei extends Component {
             <div className="fringe"></div>
             <div className="face"></div>
             <div className="eyebrow"></div>
-            <div className="tohide">
               <div className="eye"></div>
+              <div className="eye right"></div>
               <div className="glasses"></div>
               <div className="mouth">
               </div>
-            </div>
-            <div className="deco">
-              <div className="cateye"></div>
-              <div className="cateye right"></div>
-              <div className="catmouth"></div>
-            </div>
-
             <div className="blush"></div>
             <div className="nose"></div>
             <div className="neck"></div>

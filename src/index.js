@@ -13,6 +13,7 @@ import Yozen from './Yozen';
 import Yoga from './Yoga';
 import Christina from './Christina';
 import Mengru from './Mengru';
+import AnnieH from './AnnieH';
 import './style/index.css';
 import $ from 'jquery';
 import domtoimage from 'dom-to-image';
@@ -69,6 +70,10 @@ ReactDOM.render(
 ReactDOM.render(
   <Mengru />,
   document.getElementById('Mengru')
+);
+ReactDOM.render(
+  <AnnieH />,
+  document.getElementById('AnnieH')
 );
 $('a').hover(function(){
   $(this).find('p').show();
