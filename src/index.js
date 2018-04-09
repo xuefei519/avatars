@@ -14,6 +14,8 @@ import Yoga from './Yoga';
 import Christina from './Christina';
 import Mengru from './Mengru';
 import AnnieH from './AnnieH';
+import Jacob from './Jacob';
+import Erin from './Erin';
 import './style/index.css';
 import $ from 'jquery';
 
@@ -72,6 +74,14 @@ ReactDOM.render(
 ReactDOM.render(
   <AnnieH />,
   document.getElementById('AnnieH')
+);
+ReactDOM.render(
+  <Jacob />,
+  document.getElementById('Jacob')
+);
+ReactDOM.render(
+  <Erin />,
+  document.getElementById('Erin')
 );
 $('a').hover(function(){
   $(this).find('p').show();
