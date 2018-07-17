@@ -16,6 +16,7 @@ import Mengru from './Mengru';
 import AnnieH from './AnnieH';
 import Jacob from './Jacob';
 import Erin from './Erin';
+import Yoyo from './Yoyo';
 import './style/index.css';
 import $ from 'jquery';
 
@@ -74,6 +75,10 @@ ReactDOM.render(
 ReactDOM.render(
   <AnnieH />,
   document.getElementById('AnnieH')
+);
+ReactDOM.render(
+  <Yoyo />,
+  document.getElementById('Yoyo')
 );
 ReactDOM.render(
   <Jacob />,
