@@ -1,4 +1,4 @@
-/* line 44, AnnieH.scss */
+/* line 44, style.scss */
 #AnnieH .container,
 #AnnieH .face,
 #AnnieH .mole,
@@ -34,7 +34,7 @@
 #AnnieH .christmasHatTop {
   position: absolute;
 }
-/* line 49, AnnieH.scss */
+/* line 49, style.scss */
 #AnnieH .container {
   position: absolute;
   margin: auto;
@@ -44,7 +44,7 @@
   width: 200px;
   height: 200px;
 }
-/* line 59, AnnieH.scss */
+/* line 60, style.scss */
 #AnnieH .profile {
   position: relative;
   width: 200px;
@@ -56,11 +56,11 @@
   overflow: hidden;
   background: #c3acdb;
 }
-/* line 69, AnnieH.scss */
+/* line 70, style.scss */
 #AnnieH .group {
   left: -7px;
 }
-/* line 73, AnnieH.scss */
+/* line 74, style.scss */
 #AnnieH .face {
   border-radius: 100px;
   -webkit-border-radius: 100px;
@@ -72,7 +72,7 @@
   height: 91px;
   background: #ffd1c2;
 }
-/* line 81, AnnieH.scss */
+/* line 82, style.scss */
 #AnnieH .face:after {
   content: "";
   position: absolute;
@@ -92,7 +92,7 @@
   -moz-border-radius: 0 0 0 10px;
   display: none;
 }
-/* line 100, AnnieH.scss */
+/* line 101, style.scss */
 #AnnieH .mole {
   top: 59px;
   left: 70px;
@@ -103,33 +103,35 @@
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
 }
-/* line 109, AnnieH.scss */
+/* line 110, style.scss */
 #AnnieH .hair {
   z-index: 3;
   top: 43px;
   left: 59px;
   width: 105px;
   height: 109px;
-  border-radius: 100px;
+  border-radius: 100px 100px 80px 80px;
+  -webkit-border-radius: 100px 100px 80px 80px;
+  -moz-border-radius: 100px 100px 80px 80px;
   background: #2f2727;
 }
-/* line 119, AnnieH.scss */
+/* line 120, style.scss */
 #AnnieH .extraHair {
-  z-index: 14;
-  top: 127px;
-  left: 60px;
+  z-index: 300;
+  top: 55px;
+  left: 88px;
   width: 61px;
-  height: 61px;
-  border-right: 25px solid #2f2727;
+  height: 97px;
+  border-right: 18px solid #2f2727;
   border-top: 0 solid transparent;
   border-left: 0 solid transparent;
   border-bottom: 0 solid transparent;
-  border-radius: 0 0 100px 0;
-  -webkit-border-radius: 0 0 100px 0;
-  -moz-border-radius: 0 0 100px 0;
-  transform: translateZ(1px) rotate(10deg);
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  transform: translateZ(1px) rotate(-16deg);
 }
-/* line 134, AnnieH.scss */
+/* line 135, style.scss */
 #AnnieH .ear {
   z-index: 4;
   top: 93px;
@@ -141,7 +143,7 @@
   -moz-border-radius: 100%;
   background: #ffd1c2;
 }
-/* line 142, AnnieH.scss */
+/* line 143, style.scss */
 #AnnieH .ear:before {
   position: absolute;
   top: 8px;
@@ -154,27 +156,28 @@
   -moz-border-radius: 100%;
   background: #ED8A80;
 }
-/* line 154, AnnieH.scss */
+/* line 155, style.scss */
 #AnnieH .ear.right {
   left: 130px;
   display: none;
 }
-/* line 160, AnnieH.scss */
+/* line 161, style.scss */
 #AnnieH .fringe {
   z-index: 301;
-  top: 61px;
-  left: 96px;
-  width: 55px;
-  height: 81px;
-  border-right: 26px solid #2f2727;
+  top: 50px;
+  left: 53px;
+  width: 97px;
+  height: 115px;
+  border-right: 29px solid #2f2727;
   border-left: 0 solid transparent;
   border-top: 0 solid transparent;
   border-bottom: 0 solid transparent;
-  border-radius: 0 0 100%;
-  transform: rotate(-41deg);
+  border-radius: 0 100px 100% 100%;
+  transform: rotate(212deg);
 }
-/* line 172, AnnieH.scss */
+/* line 173, style.scss */
 #AnnieH .fringe:before {
+  display: none;
   position: absolute;
   content: "";
   left: 14px;
@@ -188,7 +191,7 @@
   border-radius: 100% 100% 0 0;
   transform: rotate(74deg);
 }
-/* line 186, AnnieH.scss */
+/* line 188, style.scss */
 #AnnieH .fringe:after {
   position: absolute;
   content: "";
@@ -203,7 +206,7 @@
   border-radius: 20px 0;
   display: none;
 }
-/* line 202, AnnieH.scss */
+/* line 204, style.scss */
 #AnnieH .eyebrow {
   z-index: 300;
   top: 89px;
@@ -217,7 +220,7 @@
   border-radius: 100%;
   transform: rotate(11deg);
 }
-/* line 214, AnnieH.scss */
+/* line 216, style.scss */
 #AnnieH .eyebrow:before {
   position: absolute;
   content: '';
@@ -232,7 +235,7 @@
   border-radius: 100%;
   transform: rotate(-22deg);
 }
-/* line 230, AnnieH.scss */
+/* line 232, style.scss */
 #AnnieH .glasses {
   z-index: 35;
   top: 96px;
@@ -242,7 +245,7 @@
   border: 3px solid #646B73;
   border-radius: 7px;
 }
-/* line 238, AnnieH.scss */
+/* line 240, style.scss */
 #AnnieH .glasses::before {
   position: absolute;
   content: '';
@@ -256,7 +259,7 @@
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
 }
-/* line 249, AnnieH.scss */
+/* line 251, style.scss */
 #AnnieH .glasses:after {
   position: absolute;
   content: '';
@@ -271,7 +274,7 @@
   border-right: 1px solid transparent;
   border-radius: 10px;
 }
-/* line 265, AnnieH.scss */
+/* line 267, style.scss */
 #AnnieH .eye {
   z-index: 30;
   top: 96px;
@@ -288,7 +291,7 @@
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
 }
-/* line 278, AnnieH.scss */
+/* line 280, style.scss */
 #AnnieH .eye:before {
   position: absolute;
   content: '';
@@ -302,7 +305,7 @@
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
 }
-/* line 289, AnnieH.scss */
+/* line 291, style.scss */
 #AnnieH .eye:after {
   position: absolute;
   content: '';
@@ -319,7 +322,7 @@
   -moz-border-radius: 100px;
   transform: rotate(74deg);
 }
-/* line 304, AnnieH.scss */
+/* line 306, style.scss */
 #AnnieH .eye.right {
   left: 122px;
   border-top: 2px solid #424B54;
@@ -328,7 +331,7 @@
   border-left: 2px solid transparent;
   transform: rotate(-25deg);
 }
-/* line 313, AnnieH.scss */
+/* line 315, style.scss */
 #AnnieH .eye.right:after {
   left: 13px;
   border-right: 1px solid transparent;
@@ -340,7 +343,7 @@
   -moz-border-radius: 100px;
   transform: rotate(-74deg);
 }
-/* line 324, AnnieH.scss */
+/* line 326, style.scss */
 #AnnieH .blush {
   z-index: 999;
   top: 116px;
@@ -353,7 +356,7 @@
   -moz-border-radius: 100%;
   opacity: 0.4;
 }
-/* line 333, AnnieH.scss */
+/* line 335, style.scss */
 #AnnieH .blush:before {
   position: absolute;
   content: '';
@@ -365,7 +368,7 @@
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
 }
-/* line 345, AnnieH.scss */
+/* line 347, style.scss */
 #AnnieH .nose {
   z-index: 20;
   top: 110px;
@@ -379,7 +382,7 @@
   border-radius: 0 0 0 4px;
   transform: rotate(20deg);
 }
-/* line 358, AnnieH.scss */
+/* line 360, style.scss */
 #AnnieH .lip {
   z-index: 20;
   width: 37px;
@@ -394,18 +397,18 @@
   border-radius: 100%;
   -webkit-border-radius: 100%;
 }
-/* line 372, AnnieH.scss */
+/* line 374, style.scss */
 #AnnieH .dimples {
   z-index: 21;
   top: 115px;
   left: 90px;
 }
-/* line 376, AnnieH.scss */
+/* line 378, style.scss */
 #AnnieH .dimples:after, #AnnieH .dimples:before {
   content: "";
   position: absolute;
 }
-/* line 380, AnnieH.scss */
+/* line 382, style.scss */
 #AnnieH .dimples:before {
   left: 0;
   top: 8px;
@@ -417,7 +420,7 @@
   border-right: 0 solid transparent;
   transform: rotate(-48deg);
 }
-/* line 391, AnnieH.scss */
+/* line 393, style.scss */
 #AnnieH .dimples:after {
   left: 30px;
   top: 8px;
@@ -429,7 +432,7 @@
   border-bottom: 0 solid transparent;
   transform: rotate(48deg);
 }
-/* line 403, AnnieH.scss */
+/* line 405, style.scss */
 #AnnieH .mouth {
   z-index: 20;
   width: 31px;
@@ -447,7 +450,7 @@
   -moz-border-radius: 0 0 30px 30px;
   transform: scaleY(0.5);
 }
-/* line 418, AnnieH.scss */
+/* line 420, style.scss */
 #AnnieH .teeth {
   top: -9px;
   left: 0;
@@ -459,7 +462,7 @@
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
 }
-/* line 428, AnnieH.scss */
+/* line 430, style.scss */
 #AnnieH .tongue {
   top: 10px;
   left: 6px;
@@ -471,7 +474,7 @@
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
 }
-/* line 438, AnnieH.scss */
+/* line 440, style.scss */
 #AnnieH .neck {
   z-index: 13;
   width: 25px;
@@ -480,7 +483,7 @@
   top: 130px;
   left: 97px;
 }
-/* line 448, AnnieH.scss */
+/* line 450, style.scss */
 #AnnieH .body {
   z-index: 10;
   top: 150px;
@@ -493,7 +496,7 @@
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
 }
-/* line 457, AnnieH.scss */
+/* line 459, style.scss */
 #AnnieH .body .collar {
   z-index: 2;
   top: 2px;
@@ -503,7 +506,7 @@
   border-radius: 100px;
   background: #ffd1c2;
 }
-/* line 466, AnnieH.scss */
+/* line 468, style.scss */
 #AnnieH .body .tank {
   background: #666666;
   height: 70px;
@@ -511,7 +514,7 @@
   top: 8px;
   left: 15px;
 }
-/* line 475, AnnieH.scss */
+/* line 477, style.scss */
 #AnnieH .cape {
   z-index: 4;
   top: 148px;
@@ -521,7 +524,7 @@
   background: #E15554;
   border-radius: 60px 60px 0 0;
 }
-/* line 485, AnnieH.scss */
+/* line 487, style.scss */
 #AnnieH .logo {
   top: 10px;
   left: 16px;
@@ -531,7 +534,7 @@
   border-left: 23px solid transparent;
   border-right: 22px solid transparent;
 }
-/* line 493, AnnieH.scss */
+/* line 495, style.scss */
 #AnnieH .logo:before {
   position: absolute;
   content: '';
@@ -541,7 +544,7 @@
   border-left: 35px solid transparent;
   border-right: 35px solid transparent;
 }
-/* line 503, AnnieH.scss */
+/* line 505, style.scss */
 #AnnieH .christmasHat {
   height: 20px;
   width: 60px;
@@ -552,7 +555,7 @@
   z-index: 99;
   transform: rotate(-20deg);
 }
-/* line 513, AnnieH.scss */
+/* line 515, style.scss */
 #AnnieH .christmasHatBase {
   height: 22px;
   width: 61px;
@@ -561,7 +564,7 @@
   background: white;
   z-index: 100;
 }
-/* line 520, AnnieH.scss */
+/* line 522, style.scss */
 #AnnieH .christmasHatBase:before {
   position: absolute;
   content: "";
@@ -572,7 +575,7 @@
   border-radius: 100%;
   background: #2f2727;
 }
-/* line 531, AnnieH.scss */
+/* line 533, style.scss */
 #AnnieH .christmasHatTop {
   width: 6px;
   height: 27px;
@@ -584,7 +587,7 @@
   border-left: 0px solid transparent;
   border-bottom: 0 solid transparent;
 }
-/* line 541, AnnieH.scss */
+/* line 543, style.scss */
 #AnnieH .christmasHatTop:after {
   position: absolute;
   content: "";

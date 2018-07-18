@@ -52,6 +52,7 @@ $christmasRed:#CB150B;
   bottom: 0;
   right: 0;
   left: 0;
+  top: 0;
   width: 200px;
   height: 200px;
 }
@@ -112,22 +113,22 @@ $christmasRed:#CB150B;
   left: 59px;
   width: 105px;
   height: 109px;
-  border-radius: 100px;
+  @include border(100px 100px 80px 80px);
   background: $hair;
 }
 
 .extraHair{
-  z-index: 14;
-    top: 127px;
-    left: 60px;
+  z-index: 300;
+    top: 55px;
+    left: 88px;
     width: 61px;
-    height: 61px;
-    border-right:25px solid $hair;
+    height: 97px;
+    border-right:18px solid $hair;
     border-top:0 solid transparent;
     border-left:0 solid transparent;
     border-bottom: 0 solid transparent;
-    @include border(0 0 100px 0);
-    transform: translateZ(1px)rotate(10deg);
+    @include border(100%);
+    transform: translateZ(1px)rotate(-16deg);
 }
 
 
@@ -159,17 +160,18 @@ $christmasRed:#CB150B;
 
 .fringe {
   z-index: 301;
-  top: 61px;
-  left: 96px;
-  width: 55px;
-  height: 81px;
-  border-right:26px solid $hair;
+  top: 50px;
+  left: 53px;
+  width: 97px;
+  height: 115px;
+  border-right:29px solid $hair;
   border-left: 0 solid transparent;
   border-top: 0 solid transparent;
   border-bottom: 0 solid transparent;
-  border-radius:0 0 100%;
-  transform:rotate(-41deg);
+  border-radius:0 100px 100% 100%;
+  transform:rotate(212deg);
   &:before {
+    display: none;
     position: absolute;
     content: "";
     left: 14px;
