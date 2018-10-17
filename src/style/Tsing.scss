@@ -7,6 +7,17 @@ $mouth:#fa5151;
   -webkit-border-radius: $b;
   -moz-border-radius: $b;
 }
+@mixin transform($t) {
+  transform: $t;
+  -webkit-transform: $t;/* Safari and Chrome */
+  -moz-transform: $t;/* Firefox */
+  -ms-transform: $t;
+}
+@mixin box-sizing($t) {
+  -webkit-box-sizing: $t;
+  -moz-box-sizing: $t;
+  box-sizing: $t;
+}
 #Tsing{
 .container,
 .face,
@@ -16,7 +27,7 @@ $mouth:#fa5151;
 .ear,
 .neck,
 .body,
-.cape,
+.bowtie,
 .logo,
 .group,
 .fringe,
@@ -67,7 +78,7 @@ $mouth:#fa5151;
   display: none;
 }
 .face {
-  @include border(67px 67px 100px 100px);
+  @include border(67px 100px 100px 100px);
   z-index: 20;
   top: 50px;
   left: 65px;
@@ -97,7 +108,8 @@ $mouth:#fa5151;
     border-top:4px solid $hair;
   }
 }
-.hair {
+.tohide {
+  .hair {
   z-index: 3;
   top: 30px;
   left: 60px;
@@ -105,7 +117,101 @@ $mouth:#fa5151;
   height: 120px;
   border-radius: 100px;
   background: $hair;
+}
 
+.body {
+  z-index: 10;
+  top: 150px;
+  left: 65px;
+  width: 90px;
+  height: 150px;
+  background: #5C5C5C;
+  overflow: hidden;
+  @include border(100px);
+  .collar{
+      position: absolute;
+      content: '';
+      top:-2px;
+      left: 30px;
+      width: 35px;
+    height: 15px;
+    border-radius: 0 0 100px 100px;
+    background: $skin;
+    transform:scaleY(0.6);
+  }
+}
+}
+.deco{
+  .hair{
+    z-index: 3;
+    top: 40px;
+    left: 60px;
+    width: 100px;
+    height: 110px;
+    border-radius: 39px 39px 100px 100px;
+    background: $hair;
+  }
+
+  .neck {
+    z-index: 13;
+    width: 30px;
+    height: 30px;
+    background: $skin;
+    top: 130px;
+    left: 97px;
+    @include border(100%);
+  }
+  .bowtie {
+    z-index: 23;
+    @include box-sizing(content-box);
+    width: 0;
+    left: 92px;
+    top: 147px;
+    border: 20px solid #5C5C5C;
+    border-top: 13px dotted rgba(0,0,0,0);
+    border-bottom: 13px dotted rgba(0,0,0,0);
+    @include border(10px);
+    font: normal 100%/normal Arial, Helvetica, sans-serif;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+  }
+  .bowtie::after {
+    @include box-sizing(content-box);
+    width: 14px;
+    height: 11px;
+    position: absolute;
+    content: "";
+    top: -6px;
+    left: -7px;
+    border: none;
+    @include border(16px);
+    font: normal 16px/normal Arial, Helvetica, sans-serif;
+    color: #5C5C5C;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background:#5C5C5C;
+    text-shadow:none;
+  }
+
+  .body {
+    z-index: 10;
+    top: 150px;
+    left: 65px;
+    width: 90px;
+    height: 150px;
+    background: #2e2e2e;
+    overflow: hidden;
+    @include border(100px);
+    .collar{
+        top:2px;
+        left: 26px;
+        width: 0;
+  	    height: 0;
+  	    border-left: 20px solid transparent;
+  	    border-right: 20px solid transparent;
+  	    border-top: 50px solid white;
+    }
+  }
 }
 
 .ear {
@@ -134,22 +240,29 @@ $mouth:#fa5151;
 
 .fringe {
   z-index: 99;
-  top: 90px;
-  left: 125px;
-  width: 25px;
-  height: 60px;
-  border-radius:0 0 50px 50px;
-  border-right: 3px solid $hair;
+  top: 29px;
+  left: 78px;
+  width: 80px;
+  height: 25px;
+  background: $hair;
+  @include border(100% 100% 0 0);
+  @include transform(rotate(10deg)) ;
+
   &:before {
     position: absolute;
     content: '';
-    top: 0;
-    left: -58px;
+
+    top: 18px;
+    left: 50px;
     width: 25px;
-    height: 60px;
-    @include border(100%);
-    border-left: 3px solid $hair;
-    border-radius:0 0 50px 50px;
+    height: 28px;
+    //background: $hair;
+    border-right: 8px solid $hair;
+    border-left: 8px solid transparent;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    @include border(0 0 25px 0);
+    @include transform(rotate(-25deg)) ;
   }
 }
 
@@ -217,26 +330,13 @@ $mouth:#fa5151;
 }
 
 .eye {
-  z-index: 30;
-  top: 97px;
-  left: 76px;
-  width: 25px;
-  height: 11px;
-  border-top:2px solid #424B54;
-  border-bottom: 1px solid transparent;
-  border-left: 1px solid transparent;
-  border-right: 1px solid transparent;
-  @include border(40%);
-  &:before {
-    position: absolute;
-    content: '';
-    top: -2px;
-    left: 8px;
-    width: 8px;
-    height: 8px;
+    z-index: 30;
+    top: 101px;
+    left: 97px;
+    width: 5px;
+    height: 5px;
     background: #424B54;
     @include border(100%);
-  }
 }
 .eye.right{
   left:120px;
@@ -244,14 +344,14 @@ $mouth:#fa5151;
 .dummyEye{
   z-index: 30;
   top: 101px;
-  left: 97px;
+  left: 92px;
   width: 5px;
   height: 5px;
   background: #424B54;
   @include border(100%);
 }
 .dummyEye.right{
-    left:120px;
+    left:125px;
 }
 
 .blush {
@@ -352,56 +452,5 @@ $mouth:#fa5151;
   top: 130px;
   left: 97px;
   @include border(100%);
-}
-
-.body {
-  z-index: 10;
-  top: 150px;
-  left: 65px;
-  width: 90px;
-  height: 150px;
-  background: #5C5C5C;
-  overflow: hidden;
-  @include border(100px);
-  .collar{
-      position: absolute;
-      content: '';
-      top:-2px;
-      left: 30px;
-      width: 35px;
-    height: 15px;
-    border-radius: 0 0 100px 100px;
-    background: $skin;
-    transform:scaleY(0.6);
-  }
-}
-
-.cape {
-  z-index: 4;
-  top: 148px;
-  left: 43px;
-  width: 130px;
-  height: 160px;
-  background: #E15554;
-  border-radius: 60px 60px 0 0;
-}
-
-.logo {
-  top: 10px;
-  left: 16px;
-  width: 27px;
-  height: 15px;
-  border-bottom: 20px solid #ECD688;
-  border-left: 23px solid transparent;
-  border-right: 22px solid transparent;
-  &:before {
-    position: absolute;
-    content: '';
-    top: 35px;
-    left: -22px;
-    border-top: 40px solid #ECD688;
-    border-left: 35px solid transparent;
-    border-right: 35px solid transparent;
-  }
 }
 }
