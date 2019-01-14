@@ -8,9 +8,10 @@ class Su3 extends Component {
         <div className="profile">
           <div className="group">
             <div className="hair"></div>
+            <div className="hair2"></div>
             <div className="fringe"></div>
             <div className="face"></div>
-            
+
             <div className="eye"></div>
             <div className="eye right"></div>
             <div className="blush"></div>
