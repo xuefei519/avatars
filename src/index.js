@@ -20,6 +20,7 @@ import Yoyo from './Yoyo';
 import Sheryl from './Sheryl';
 import Grace from './Grace';
 import Yannan from './Yannan';
+import Hao from './Hao';
 import './style/index.css';
 import $ from 'jquery';
 
@@ -102,6 +103,10 @@ ReactDOM.render(
 ReactDOM.render(
   <Erin />,
   document.getElementById('Erin')
+);
+ReactDOM.render(
+    <Hao />,
+    document.getElementById('Hao')
 );
 $('a').hover(function(){
   $(this).find('p').show();
