@@ -4,7 +4,7 @@ import './style/Yozen.css';
 class Yozen extends Component {
   render() {
     return (
-      <a className="container">
+      <div className="container">
         <div className="profile">
           <div className="group">
             <div className="hair"></div>
@@ -26,7 +26,7 @@ class Yozen extends Component {
         </div>
       </div>
       <p className="name">Yozen</p>
-      </a>
+      </div>
     );
   }
 }

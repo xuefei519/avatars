@@ -108,7 +108,7 @@ ReactDOM.render(
     <Hao />,
     document.getElementById('Hao')
 );
-$('a').hover(function(){
+$('.container').hover(function(){
   $(this).find('p').show();
   $(this).find('.deco').show();
   $(this).find('.tohide').hide();

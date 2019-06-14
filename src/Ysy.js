@@ -4,7 +4,7 @@ import './style/Ysy.css';
 class Ysy extends Component {
   render() {
     return (
-      <a className="container">
+      <div className="container">
         <div className="profile">
           <div className="group">
             <div className="deco">
@@ -33,7 +33,7 @@ class Ysy extends Component {
           </div>
         </div>
         <p className='name'>Ysy</p>
-      </a>
+      </div>
     );
   }
 }

@@ -4,7 +4,7 @@ import './style/Sheryl.css';
 class Sheryl extends Component {
   render() {
     return (
-<a className="container">
+<div className="container">
   <div className="profile">
     <div className="group">
       <div className="hair"></div>
@@ -28,7 +28,7 @@ class Sheryl extends Component {
     </div>
   </div>
   <p className='name'>Sheryl</p>
-</a>
+</div>
 );
 }
 }

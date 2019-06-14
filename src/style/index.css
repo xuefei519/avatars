@@ -69,7 +69,7 @@ body {
   padding-bottom: 120px;
 }
 /* line 63, index.scss */
-#body .container {
+#body .Container {
   display: flex;
   flex-wrap: wrap;
   width: 100%;

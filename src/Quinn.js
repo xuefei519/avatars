@@ -4,7 +4,7 @@ import './style/Quinn.css';
 class Quinn extends Component {
   render() {
     return (
-      <a className="container">
+      <div className="container">
         <div className="profile">
           <div className="group">
             <div className="hair"></div>
@@ -28,7 +28,7 @@ class Quinn extends Component {
           </div>
         </div>
         <p className='name'>Quinn</p>
-      </a>
+      </div>
     );
   }
 }

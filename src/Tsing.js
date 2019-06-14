@@ -4,7 +4,7 @@ import './style/Tsing.css';
 class Tsing extends Component {
   render() {
     return (
-      <a className="container">
+      <div className="container">
         <div className="profile">
           <div className="group">
 
@@ -47,7 +47,7 @@ class Tsing extends Component {
         </div>
       </div>
       <p className='name'>Tsing</p>
-      </a>
+      </div>
     );
   }
 }

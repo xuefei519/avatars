@@ -4,7 +4,7 @@ import './style/Su3.css';
 class Su3 extends Component {
   render() {
     return (
-      <a className="container">
+      <div className="container">
         <div className="profile">
           <div className="group">
             <div className="hair"></div>
@@ -32,7 +32,7 @@ class Su3 extends Component {
         </div>
       </div>
       <p className='name'>Su3</p>
-      </a>
+      </div>
     );
   }
 }
