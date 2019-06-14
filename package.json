@@ -3,17 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "file-saver": "^1.3.8",
+    "file-saver": "^2.0.2",
     "jquery": "^3.4.1",
-    "react": "^15.6.2",
-    "react-bootstrap": "^0.30.8",
-    "react-dom": "^15.6.2"
+    "react": "^16.8.6",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "amdefine": ">=0.1.0",
+    "amdefine": ">=1.0.1",
     "grunt": "^1.0.4",
-    "grunt-contrib-jshint": "^1.1.0",
-    "react-scripts": "0.9.5"
+    "grunt-contrib-jshint": "^2.1.0",
+    "react-scripts": "^3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -28,5 +28,17 @@
     "url": "https://git.heroku.com/avatars4fun.git"
   },
   "author": "Xuefei",
-  "license": "ISC"
+  "license": "ISC",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
