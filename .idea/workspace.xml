@@ -3,22 +3,42 @@
   <component name="ChangeListManager">
     <list default="true" id="c86da886-51cd-49a8-b177-e5b14cab1431" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/25bd6998c0780df6e0f567b0aaf1fff28b1f4e5a/Angela.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/25bd6998c0780df6e0f567b0aaf1fff28b1f4e5a/AnnieH.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/25bd6998c0780df6e0f567b0aaf1fff28b1f4e5a/Christina.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/25bd6998c0780df6e0f567b0aaf1fff28b1f4e5a/Chuck.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/25bd6998c0780df6e0f567b0aaf1fff28b1f4e5a/Erin.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/25bd6998c0780df6e0f567b0aaf1fff28b1f4e5a/Grace.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/25bd6998c0780df6e0f567b0aaf1fff28b1f4e5a/Hao.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/25bd6998c0780df6e0f567b0aaf1fff28b1f4e5a/Jacob.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/25bd6998c0780df6e0f567b0aaf1fff28b1f4e5a/Joy.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/25bd6998c0780df6e0f567b0aaf1fff28b1f4e5a/Mengru.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/25bd6998c0780df6e0f567b0aaf1fff28b1f4e5a/Pmc.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/25bd6998c0780df6e0f567b0aaf1fff28b1f4e5a/Quinn.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/25bd6998c0780df6e0f567b0aaf1fff28b1f4e5a/Sheryl.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/25bd6998c0780df6e0f567b0aaf1fff28b1f4e5a/Su3.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/25bd6998c0780df6e0f567b0aaf1fff28b1f4e5a/Tsing.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/25bd6998c0780df6e0f567b0aaf1fff28b1f4e5a/Yannan.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/25bd6998c0780df6e0f567b0aaf1fff28b1f4e5a/Yoga.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/25bd6998c0780df6e0f567b0aaf1fff28b1f4e5a/Yoyo.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/25bd6998c0780df6e0f567b0aaf1fff28b1f4e5a/Yozen.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/25bd6998c0780df6e0f567b0aaf1fff28b1f4e5a/Ysy.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/25bd6998c0780df6e0f567b0aaf1fff28b1f4e5a/index.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/25bd6998c0780df6e0f567b0aaf1fff28b1f4e5a/xuefei.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.85596e66.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.85596e66.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.5ebdd0ad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.5ebdd0ad.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/index.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>yann</find>
-      <find>hover</find>
-      <find>a</find>
-      <find>name</find>
-      <find>container</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,7 +88,7 @@
       <workItem from="1551904126241" duration="616000" />
       <workItem from="1560543228800" duration="2778000" />
       <workItem from="1560969319425" duration="23000" />
-      <workItem from="1583252727104" duration="184000" />
+      <workItem from="1583252727104" duration="1005000" />
     </task>
     <servers />
   </component>
